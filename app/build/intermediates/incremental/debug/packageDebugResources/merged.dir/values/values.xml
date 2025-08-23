@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FFB300</color>
+    <color name="bg">#FFFFFFFF</color>
+    <color name="on_bg">#FF000000</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="primary">#1E88E5</color>
+    <color name="secondary">#26A69A</color>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="app_name">HyperZone</string>
+    <string name="cart">Cart</string>
+    <string name="cart_title">Your cart</string>
+    <string name="categories">Categories</string>
+    <string name="categories_title">Browse categories</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="email">Email</string>
+    <string name="help">Help</string>
+    <string name="home">Home</string>
+    <string name="home_title">Featured</string>
+    <string name="login">Login</string>
+    <string name="login_title">Welcome back</string>
+    <string name="lorem_long">Explore our latest devices, accessories, and deals. This is placeholder content to demonstrate scrolling and typography.</string>
+    <string name="lorem_short">High‑performance phone with pro camera.</string>
+    <string name="nav_close">Close navigation drawer</string>
+    <string name="nav_open">Open navigation drawer</string>
+    <string name="next">Next</string>
+    <string name="notifications">Notifications</string>
+    <string name="onboarding_subtitle">Find phones and accessories, compare, and checkout easily.</string>
+    <string name="onboarding_title">Shop smarter with HyperZone</string>
+    <string name="orders">Orders</string>
+    <string name="password">Password</string>
+    <string name="product_title">Sample Product</string>
+    <string name="profile">Profile</string>
+    <string name="profile_title">Your profile</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="settings_title">App Settings</string>
+    <string name="skip">Skip</string>
+    <string name="wishlist">Wishlist</string>
+    <style name="Theme.HyperZone" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:textColorPrimary">@color/on_bg</item>
+    </style>
+</resources>

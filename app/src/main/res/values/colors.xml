@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 60-30-10 palette -->
+    <color name="primary">#1E88E5</color>  <!-- 60% -->
+    <color name="secondary">#26A69A</color> <!-- 30% -->
+    <color name="accent">#FFB300</color>   <!-- 10% -->
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="bg">#FFFFFFFF</color>
+    <color name="on_bg">#FF000000</color>
+</resources>
