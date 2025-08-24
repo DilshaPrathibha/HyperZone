@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setContentView(binding.root)
 
         setSupportActionBar(binding.toolbar)
+        // If you imported your logo as a VectorDrawable named "logo":
+        // binding.toolbar.logo = AppCompatResources.getDrawable(this, R.drawable.logo)
 
         val toggle = ActionBarDrawerToggle(
             this, binding.drawerLayout, binding.toolbar,
@@ -65,7 +67,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // For exam demo, we just switch fragments or no-op
         when (item.itemId) {
-            R.id.drawer_orders -> { /* TODO: Could start an OrdersActivity */ }
+            R.id.drawer_orders -> { /* TODO */ }
             R.id.drawer_wishlist -> { /* TODO */ }
             R.id.drawer_notifications -> { /* TODO */ }
             R.id.drawer_settings -> { /* TODO: startActivity(Intent(this, SettingsActivity::class.java)) */ }

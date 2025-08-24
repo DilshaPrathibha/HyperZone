@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base text style so layouts using @style/Text compile -->
+    <style name="Text">
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Your scale (use these in layouts: Text.H1, Text.H2, etc.) -->
+    <style name="Text.H1" parent="Text">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.H2" parent="Text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Body" parent="Text">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Label" parent="Text">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/textSecondary</item>
+    </style>
+
+</resources>

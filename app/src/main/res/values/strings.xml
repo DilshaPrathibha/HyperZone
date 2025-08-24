@@ -19,6 +19,17 @@
     <string name="onboarding_subtitle">Find phones and accessories, compare, and checkout easily.</string>
     <string name="next">Next</string>
     <string name="skip">Skip</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Onboarding screen content -->
+    <string name="onboarding_welcome_title">Welcome to HyperZone</string>
+    <string name="onboarding_welcome_subtitle">Your one-stop destination for premium phones and accessories</string>
+    
+    <string name="onboarding_browse_title">Browse &amp; Compare</string>
+    <string name="onboarding_browse_subtitle">Explore our vast collection and find the perfect device for you</string>
+    
+    <string name="onboarding_checkout_title">Easy Checkout</string>
+    <string name="onboarding_checkout_subtitle">Secure payments and fast delivery to your doorstep</string>
 
     <string name="login">Login</string>
     <string name="login_title">Welcome back</string>

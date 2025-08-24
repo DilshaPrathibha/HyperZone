@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- App theme -->
     <style name="Theme.HyperZone" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/primary</item>
-        <item name="colorSecondary">@color/secondary</item>
-        <item name="android:statusBarColor">@color/primary</item>
-        <item name="android:navigationBarColor">@color/bg</item>
-        <item name="android:windowBackground">@color/bg</item>
-        <item name="android:textColorPrimary">@color/on_bg</item>
+        <!-- Brand colors -->
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSurface">@color/cardBackground</item>
+
+        <!-- System surfaces -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/accent</item>
+        <item name="android:navigationBarColor">@color/background</item>
+
+        <!-- Text -->
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+
+        <!-- Icon & control tints -->
+        <item name="colorControlNormal">@color/textSecondary</item>
+        <item name="colorControlActivated">@color/accent</item>
     </style>
+
+    <!-- Splash theme (from androidx.core:core-splashscreen) -->
+    <!-- Splash theme -->
+    <style name="Theme.HyperZone.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_bg</item>
+        <!-- Use the padded wrapper, not the raw vector -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.HyperZone</item>
+    </style>
+
+
 </resources>

@@ -36,7 +36,8 @@
             android:exported="false" />
         <activity
             android:name="com.example.hyperzone.ui.SplashActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:theme="@style/Theme.HyperZone.Splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

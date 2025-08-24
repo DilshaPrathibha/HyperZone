@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:1-47:12
+ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\625f68a00db373e3a52a675d5d3b9404\transformed\viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\cae17be10ca56c600de39403bf70c13e\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\adcaf0067b3ea2d648da0f195e4c7192\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -40,6 +40,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Dilsha\.
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\0cd1bddc5157933390ae46664d46039c\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\1cc85d22b0a6a83e37892bb30f3d0b46\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\050d29032ec6071f13fe4742aab0ce48\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\76ff051b72ffa0b18693aada96ad40e7\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\7677d99ea97a728a50e62b3cfa1b2a9a\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\3eefc4415ac0d385c2464cde96561954\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\485b2a1f93d291c69761fe482ab09a8f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
@@ -53,7 +54,7 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dilsha\.gradle\c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\78d2dcd2773e5c39b7e7e364116cc07c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\bcc60bea4e6e4f4445081fe7319fd6e9\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 	package
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:3:5-36
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:70-101
 		INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml
@@ -62,8 +63,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Dilsha\.gradle\caches\9.0-mile
 	xmlns:android
 		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:5:5-46:19
-INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:5:5-46:19
+ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:3:5-28:19
+INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:3:5-28:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\cae17be10ca56c600de39403bf70c13e\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\cae17be10ca56c600de39403bf70c13e\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\adcaf0067b3ea2d648da0f195e4c7192\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -85,69 +86,71 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Dilsha\.gradle\cac
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\79541e4ae948949d0dc5b604b2c8ce5d\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:8:9-35
 	android:label
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:6:9-41
 	android:roundIcon
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:7:9-54
 	android:icon
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:5:9-43
 	android:allowBackup
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:4:9-35
 	android:theme
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:11:9-47
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:9:9-47
 activity#com.example.hyperzone.ui.SettingsActivity
-ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:13:9-15:40
+ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:11:9-82
 	android:exported
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:15:13-37
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:11:55-79
 	android:name
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:14:13-48
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:11:19-54
 activity#com.example.hyperzone.ui.LoginActivity
-ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:17:9-19:40
+ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:12:9-79
 	android:exported
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:19:13-37
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:12:52-76
 	android:name
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:12:19-51
 activity#com.example.hyperzone.ui.OnboardingActivity
-ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:21:9-23:40
+ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:13:9-84
 	android:exported
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:13:57-81
 	android:name
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:22:13-50
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:13:19-56
 activity#com.example.hyperzone.ui.SplashActivity
-ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:25:9-32:20
+ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:exported
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:17:13-36
+	android:theme
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:18:13-58
 	android:name
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:26:13-46
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:16:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:28:13-31:29
+ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:21:27-74
 activity#com.example.hyperzone.ui.MainActivity
-ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:34:9-36:40
+ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:25:9-78
 	android:exported
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:36:13-37
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:25:51-75
 	android:name
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:35:13-44
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:25:19-50
 activity#com.example.hyperzone.ui.ProductDetailActivity
-ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:38:9-40:40
+ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:26:9-87
 	android:exported
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:40:13-37
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:26:60-84
 	android:name
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:39:13-53
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:26:19-59
 activity#com.example.hyperzone.ui.SearchActivity
-ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:42:9-44:40
+ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:27:9-80
 	android:exported
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:44:13-37
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:27:53-77
 	android:name
-		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:43:13-46
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:27:19-52
 uses-sdk
 INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml
@@ -224,6 +227,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\D
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\1cc85d22b0a6a83e37892bb30f3d0b46\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\050d29032ec6071f13fe4742aab0ce48\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\050d29032ec6071f13fe4742aab0ce48\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\76ff051b72ffa0b18693aada96ad40e7\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\76ff051b72ffa0b18693aada96ad40e7\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\7677d99ea97a728a50e62b3cfa1b2a9a\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\7677d99ea97a728a50e62b3cfa1b2a9a\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\3eefc4415ac0d385c2464cde96561954\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
