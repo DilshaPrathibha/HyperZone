@@ -8,8 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login_title"
-        android:textStyle="bold"
-        android:textSize="22sp"
+        style="@style/Text.H2"
         android:paddingBottom="16dp"/>
 
     <com.google.android.material.textfield.TextInputLayout

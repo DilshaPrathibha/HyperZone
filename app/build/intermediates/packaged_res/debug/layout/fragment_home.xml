@@ -10,12 +10,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/home_title"
-            android:textStyle="bold"
-            android:textSize="22sp"
+            style="@style/Text.H2"
             android:paddingBottom="8dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/lorem_long"/>
+            android:text="@string/lorem_long"
+            style="@style/Text.Body"/>
     </LinearLayout>
 </ScrollView>

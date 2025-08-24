@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setContentView(binding.root)
 
         setSupportActionBar(binding.toolbar)
+        // If you imported your logo as a VectorDrawable named "logo":
+        // binding.toolbar.logo = AppCompatResources.getDrawable(this, R.drawable.logo)
 
         val toggle = ActionBarDrawerToggle(
             this, binding.drawerLayout, binding.toolbar,
@@ -63,13 +65,39 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        // For exam demo, we just switch fragments or no-op
+        // Handle navigation drawer item selection
         when (item.itemId) {
-            R.id.drawer_orders -> { /* TODO: Could start an OrdersActivity */ }
-            R.id.drawer_wishlist -> { /* TODO */ }
-            R.id.drawer_notifications -> { /* TODO */ }
-            R.id.drawer_settings -> { /* TODO: startActivity(Intent(this, SettingsActivity::class.java)) */ }
-            R.id.drawer_help -> { /* TODO */ }
+            R.id.drawer_orders -> { 
+                // Navigate to orders fragment or activity
+                supportFragmentManager.commit { 
+                    replace(R.id.fragment_container, HomeFragment()) 
+                }
+            }
+            R.id.drawer_wishlist -> { 
+                // Navigate to wishlist fragment or activity
+                supportFragmentManager.commit { 
+                    replace(R.id.fragment_container, HomeFragment()) 
+                }
+            }
+            R.id.drawer_notifications -> { 
+                // Navigate to notifications fragment or activity
+                supportFragmentManager.commit { 
+                    replace(R.id.fragment_container, HomeFragment()) 
+                }
+            }
+            R.id.drawer_settings -> { 
+                // Navigate to settings activity
+                // startActivity(Intent(this, SettingsActivity::class.java))
+                supportFragmentManager.commit { 
+                    replace(R.id.fragment_container, HomeFragment()) 
+                }
+            }
+            R.id.drawer_help -> { 
+                // Navigate to help fragment or activity
+                supportFragmentManager.commit { 
+                    replace(R.id.fragment_container, HomeFragment()) 
+                }
+            }
         }
         binding.drawerLayout.closeDrawer(GravityCompat.START)
         return true

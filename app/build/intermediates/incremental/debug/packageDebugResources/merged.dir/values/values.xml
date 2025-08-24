@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="accent">#FFB300</color>
-    <color name="bg">#FFFFFFFF</color>
-    <color name="on_bg">#FF000000</color>
-    <color name="on_primary">#FFFFFFFF</color>
-    <color name="primary">#1E88E5</color>
-    <color name="secondary">#26A69A</color>
+    <color name="accent">#007AFF</color>
+    <color name="background">#FFFFFFFF</color>
+    <color name="cardBackground">#FFF5F5F5</color>
+    <color name="colorPrimary">#007AFF</color>
+    <color name="colorPrimaryVariant">#0051A8</color>
+    <color name="onPrimary">#FFFFFFFF</color>
+    <color name="splash_bg">#FFFFFFFF</color>
+    <color name="surface">@color/cardBackground</color>
+    <color name="textPrimary">#FF000000</color>
+    <color name="textSecondary">#FF444444</color>
+    <dimen name="dot_margin">8dp</dimen>
+    <dimen name="dot_size">12dp</dimen>
     <string name="add_to_cart">Add to cart</string>
     <string name="app_name">HyperZone</string>
     <string name="cart">Cart</string>
@@ -14,6 +20,7 @@
     <string name="categories_title">Browse categories</string>
     <string name="dark_mode">Dark mode</string>
     <string name="email">Email</string>
+    <string name="get_started">Get Started</string>
     <string name="help">Help</string>
     <string name="home">Home</string>
     <string name="home_title">Featured</string>
@@ -25,8 +32,14 @@
     <string name="nav_open">Open navigation drawer</string>
     <string name="next">Next</string>
     <string name="notifications">Notifications</string>
+    <string name="onboarding_browse_subtitle">Explore our vast collection and find the perfect device for you</string>
+    <string name="onboarding_browse_title">Browse &amp; Compare</string>
+    <string name="onboarding_checkout_subtitle">Secure payments and fast delivery to your doorstep</string>
+    <string name="onboarding_checkout_title">Easy Checkout</string>
     <string name="onboarding_subtitle">Find phones and accessories, compare, and checkout easily.</string>
     <string name="onboarding_title">Shop smarter with HyperZone</string>
+    <string name="onboarding_welcome_subtitle">Your one-stop destination for premium phones and accessories</string>
+    <string name="onboarding_welcome_title">Welcome to HyperZone</string>
     <string name="orders">Orders</string>
     <string name="password">Password</string>
     <string name="product_title">Sample Product</string>
@@ -37,12 +50,55 @@
     <string name="settings_title">App Settings</string>
     <string name="skip">Skip</string>
     <string name="wishlist">Wishlist</string>
+    <style name="Text" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+    <style name="Text.Body" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/textSecondary</item>
+    </style>
+    <style name="Text.H1" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+    <style name="Text.H2" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+    <style name="Text.Label" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/textSecondary</item>
+    </style>
     <style name="Theme.HyperZone" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/primary</item>
-        <item name="colorSecondary">@color/secondary</item>
-        <item name="android:statusBarColor">@color/primary</item>
-        <item name="android:navigationBarColor">@color/bg</item>
-        <item name="android:windowBackground">@color/bg</item>
-        <item name="android:textColorPrimary">@color/on_bg</item>
+        
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSurface">@color/cardBackground</item>
+
+        
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/accent</item>
+        <item name="android:navigationBarColor">@color/background</item>
+
+        
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+
+        
+        <item name="colorControlNormal">@color/textSecondary</item>
+        <item name="colorControlActivated">@color/accent</item>
+    </style>
+    <style name="Theme.HyperZone.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_bg</item>
+        
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.HyperZone</item>
     </style>
 </resources>

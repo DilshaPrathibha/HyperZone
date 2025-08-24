@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Text style for legacy uses -->
+    <style name="Text" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+    <!-- Text.H1: 24sp bold, @color/textPrimary -->
+    <style name="Text.H1" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+    <!-- Text.H2: 20sp bold, @color/textPrimary -->
+    <style name="Text.H2" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+    <!-- Text.Body: 14sp normal, @color/textSecondary -->
+    <style name="Text.Body" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/textSecondary</item>
+    </style>
+
+    <!-- Text.Label: 12sp normal, @color/textSecondary -->
+    <style name="Text.Label" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/textSecondary</item>
+    </style>
+</resources>
