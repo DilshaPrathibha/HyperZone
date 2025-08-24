@@ -50,23 +50,28 @@
     <string name="settings_title">App Settings</string>
     <string name="skip">Skip</string>
     <string name="wishlist">Wishlist</string>
-    <style name="Text">
+    <style name="Text" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/textPrimary</item>
-        <item name="android:textSize">14sp</item>
     </style>
-    <style name="Text.Body" parent="Text">
+    <style name="Text.Body" parent="TextAppearance.AppCompat.Body1">
         <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/textSecondary</item>
     </style>
-    <style name="Text.H1" parent="Text">
+    <style name="Text.H1" parent="TextAppearance.AppCompat.Headline">
         <item name="android:textSize">24sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textPrimary</item>
     </style>
-    <style name="Text.H2" parent="Text">
+    <style name="Text.H2" parent="TextAppearance.AppCompat.Title">
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textPrimary</item>
     </style>
-    <style name="Text.Label" parent="Text">
+    <style name="Text.Label" parent="TextAppearance.AppCompat.Caption">
         <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/textSecondary</item>
     </style>
     <style name="Theme.HyperZone" parent="Theme.MaterialComponents.DayNight.NoActionBar">

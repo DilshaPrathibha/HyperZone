@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import androidx.viewpager2.widget.ViewPager2;
 import com.example.hyperzone.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -24,21 +25,26 @@ public final class ActivityOnboardingBinding implements ViewBinding {
   public final Button btnNext;
 
   @NonNull
-  public final Button btnSkip;
+  public final Button btnPrevious;
 
   @NonNull
-  public final TextView subtitle;
+  public final TextView btnSkip;
 
   @NonNull
-  public final TextView title;
+  public final LinearLayout dotsContainer;
+
+  @NonNull
+  public final ViewPager2 onboardingViewPager;
 
   private ActivityOnboardingBinding(@NonNull LinearLayout rootView, @NonNull Button btnNext,
-      @NonNull Button btnSkip, @NonNull TextView subtitle, @NonNull TextView title) {
+      @NonNull Button btnPrevious, @NonNull TextView btnSkip, @NonNull LinearLayout dotsContainer,
+      @NonNull ViewPager2 onboardingViewPager) {
     this.rootView = rootView;
     this.btnNext = btnNext;
+    this.btnPrevious = btnPrevious;
     this.btnSkip = btnSkip;
-    this.subtitle = subtitle;
-    this.title = title;
+    this.dotsContainer = dotsContainer;
+    this.onboardingViewPager = onboardingViewPager;
   }
 
   @Override
@@ -74,26 +80,32 @@ public final class ActivityOnboardingBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnPrevious;
+      Button btnPrevious = ViewBindings.findChildViewById(rootView, id);
+      if (btnPrevious == null) {
+        break missingId;
+      }
+
       id = R.id.btnSkip;
-      Button btnSkip = ViewBindings.findChildViewById(rootView, id);
+      TextView btnSkip = ViewBindings.findChildViewById(rootView, id);
       if (btnSkip == null) {
         break missingId;
       }
 
-      id = R.id.subtitle;
-      TextView subtitle = ViewBindings.findChildViewById(rootView, id);
-      if (subtitle == null) {
+      id = R.id.dotsContainer;
+      LinearLayout dotsContainer = ViewBindings.findChildViewById(rootView, id);
+      if (dotsContainer == null) {
         break missingId;
       }
 
-      id = R.id.title;
-      TextView title = ViewBindings.findChildViewById(rootView, id);
-      if (title == null) {
+      id = R.id.onboardingViewPager;
+      ViewPager2 onboardingViewPager = ViewBindings.findChildViewById(rootView, id);
+      if (onboardingViewPager == null) {
         break missingId;
       }
 
-      return new ActivityOnboardingBinding((LinearLayout) rootView, btnNext, btnSkip, subtitle,
-          title);
+      return new ActivityOnboardingBinding((LinearLayout) rootView, btnNext, btnPrevious, btnSkip,
+          dotsContainer, onboardingViewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
