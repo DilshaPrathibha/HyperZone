@@ -10,16 +10,18 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.hyperzone.R;
+import com.google.android.material.appbar.MaterialToolbar;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityProductDetailBinding implements ViewBinding {
   @NonNull
-  private final ScrollView rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final Button btnAddToCart;
@@ -36,20 +38,29 @@ public final class ActivityProductDetailBinding implements ViewBinding {
   @NonNull
   public final ImageView heroImage;
 
-  private ActivityProductDetailBinding(@NonNull ScrollView rootView, @NonNull Button btnAddToCart,
-      @NonNull TextView detailDesc, @NonNull TextView detailName, @NonNull TextView detailPrice,
-      @NonNull ImageView heroImage) {
+  @NonNull
+  public final ScrollView scroll;
+
+  @NonNull
+  public final MaterialToolbar toolbar;
+
+  private ActivityProductDetailBinding(@NonNull ConstraintLayout rootView,
+      @NonNull Button btnAddToCart, @NonNull TextView detailDesc, @NonNull TextView detailName,
+      @NonNull TextView detailPrice, @NonNull ImageView heroImage, @NonNull ScrollView scroll,
+      @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
     this.btnAddToCart = btnAddToCart;
     this.detailDesc = detailDesc;
     this.detailName = detailName;
     this.detailPrice = detailPrice;
     this.heroImage = heroImage;
+    this.scroll = scroll;
+    this.toolbar = toolbar;
   }
 
   @Override
   @NonNull
-  public ScrollView getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -104,8 +115,20 @@ public final class ActivityProductDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityProductDetailBinding((ScrollView) rootView, btnAddToCart, detailDesc,
-          detailName, detailPrice, heroImage);
+      id = R.id.scroll;
+      ScrollView scroll = ViewBindings.findChildViewById(rootView, id);
+      if (scroll == null) {
+        break missingId;
+      }
+
+      id = R.id.toolbar;
+      MaterialToolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+
+      return new ActivityProductDetailBinding((ConstraintLayout) rootView, btnAddToCart, detailDesc,
+          detailName, detailPrice, heroImage, scroll, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -80,6 +80,7 @@ id productName
 id productPrice
 id productsRecyclerView
 id recycler_cart
+id scroll
 id switchTheme
 id toolbar
 id total_bar
