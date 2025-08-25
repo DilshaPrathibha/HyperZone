@@ -48,6 +48,7 @@
 
     <!-- Common actions -->
     <string name="search">Search</string>
+    <string name="search_hint">Search products</string>
     <string name="add_to_cart">Add to cart</string>
     <string name="remove">Remove</string>
 
@@ -81,4 +82,9 @@
     <!-- Placeholder copy -->
     <string name="lorem_short">High-performance phone with pro camera.</string>
     <string name="lorem_long">Explore our latest devices, accessories, and deals. This is placeholder content to demonstrate scrolling and typography.</string>
+    
+    <!-- Empty states -->
+    <string name="empty_wishlist">Your wishlist is empty</string>
+    <string name="no_orders">You have no orders yet</string>
+    <string name="no_notifications">No notifications</string>
 </resources>

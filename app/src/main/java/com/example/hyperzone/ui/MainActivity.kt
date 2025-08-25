@@ -1,5 +1,6 @@
 package com.example.hyperzone.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -80,11 +81,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.drawer_orders -> { /* TODO */ }
-            R.id.drawer_wishlist -> { /* TODO */ }
-            R.id.drawer_notifications -> { /* TODO */ }
-            R.id.drawer_settings -> { /* TODO */ }
-            R.id.drawer_help -> { /* TODO */ }
+            R.id.drawer_orders -> startActivity(Intent(this, com.example.hyperzone.ui.orders.OrdersActivity::class.java))
+            R.id.drawer_wishlist -> startActivity(Intent(this, com.example.hyperzone.ui.wishlist.WishlistActivity::class.java))
+            R.id.drawer_notifications -> startActivity(Intent(this, com.example.hyperzone.ui.notifications.NotificationsActivity::class.java))
+            R.id.drawer_settings -> startActivity(Intent(this, com.example.hyperzone.ui.SettingsActivity::class.java))
+            R.id.drawer_help -> { /* TODO: Handle help */ }
         }
         binding.drawerLayout.closeDrawer(GravityCompat.START)
         return true
