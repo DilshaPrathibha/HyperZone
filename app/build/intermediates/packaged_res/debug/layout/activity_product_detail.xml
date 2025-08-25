@@ -1,32 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="16dp">
+
         <ImageView
+            android:id="@+id/heroImage"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="220dp"
             android:scaleType="centerCrop"
-            android:src="@mipmap/ic_launcher"/>
+            android:contentDescription="@string/product_image" />
+
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:text="@string/product_title"
-            android:paddingTop="12dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/lorem_short"
-            android:paddingTop="8dp"/>
-        <Button
+            android:id="@+id/detailName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/add_to_cart"
-            android:layout_marginTop="16dp"/>
+            style="@style/Text.H2"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/detailPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Text.H2"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/detailDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Text.Body"
+            android:layout_marginTop="8dp"
+            android:text="@string/sample_product_description" />
+
+        <Button
+            android:id="@+id/btnAddToCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/add_to_cart" />
     </LinearLayout>
 </ScrollView>

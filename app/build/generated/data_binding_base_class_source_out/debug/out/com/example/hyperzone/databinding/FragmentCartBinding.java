@@ -4,25 +4,63 @@ package com.example.hyperzone.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.hyperzone.R;
+import com.google.android.material.card.MaterialCardView;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentCartBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
-  private FragmentCartBinding(@NonNull LinearLayout rootView) {
+  @NonNull
+  public final Button btnCheckout;
+
+  @NonNull
+  public final LinearLayout emptyState;
+
+  @NonNull
+  public final TextView emptySub;
+
+  @NonNull
+  public final TextView emptyTitle;
+
+  @NonNull
+  public final RecyclerView recyclerCart;
+
+  @NonNull
+  public final MaterialCardView totalBar;
+
+  @NonNull
+  public final TextView tvTotal;
+
+  private FragmentCartBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnCheckout,
+      @NonNull LinearLayout emptyState, @NonNull TextView emptySub, @NonNull TextView emptyTitle,
+      @NonNull RecyclerView recyclerCart, @NonNull MaterialCardView totalBar,
+      @NonNull TextView tvTotal) {
     this.rootView = rootView;
+    this.btnCheckout = btnCheckout;
+    this.emptyState = emptyState;
+    this.emptySub = emptySub;
+    this.emptyTitle = emptyTitle;
+    this.recyclerCart = recyclerCart;
+    this.totalBar = totalBar;
+    this.tvTotal = tvTotal;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +81,56 @@ public final class FragmentCartBinding implements ViewBinding {
 
   @NonNull
   public static FragmentCartBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.btn_checkout;
+      Button btnCheckout = ViewBindings.findChildViewById(rootView, id);
+      if (btnCheckout == null) {
+        break missingId;
+      }
 
-    return new FragmentCartBinding((LinearLayout) rootView);
+      id = R.id.empty_state;
+      LinearLayout emptyState = ViewBindings.findChildViewById(rootView, id);
+      if (emptyState == null) {
+        break missingId;
+      }
+
+      id = R.id.empty_sub;
+      TextView emptySub = ViewBindings.findChildViewById(rootView, id);
+      if (emptySub == null) {
+        break missingId;
+      }
+
+      id = R.id.empty_title;
+      TextView emptyTitle = ViewBindings.findChildViewById(rootView, id);
+      if (emptyTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.recycler_cart;
+      RecyclerView recyclerCart = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerCart == null) {
+        break missingId;
+      }
+
+      id = R.id.total_bar;
+      MaterialCardView totalBar = ViewBindings.findChildViewById(rootView, id);
+      if (totalBar == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_total;
+      TextView tvTotal = ViewBindings.findChildViewById(rootView, id);
+      if (tvTotal == null) {
+        break missingId;
+      }
+
+      return new FragmentCartBinding((ConstraintLayout) rootView, btnCheckout, emptyState, emptySub,
+          emptyTitle, recyclerCart, totalBar, tvTotal);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

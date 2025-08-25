@@ -3,23 +3,30 @@
     <color name="accent">#007AFF</color>
     <color name="background">#FFFFFFFF</color>
     <color name="cardBackground">#FFF5F5F5</color>
+    <color name="colorOnSurface">#1D1B20</color>
     <color name="colorPrimary">#007AFF</color>
     <color name="colorPrimaryVariant">#0051A8</color>
+    <color name="colorSurfaceVariant">#E7E0EC</color>
     <color name="onPrimary">#FFFFFFFF</color>
     <color name="splash_bg">#FFFFFFFF</color>
     <color name="surface">@color/cardBackground</color>
     <color name="textPrimary">#FF000000</color>
     <color name="textSecondary">#FF444444</color>
+    <color name="white">#FFFFFFFF</color>
     <dimen name="dot_margin">8dp</dimen>
     <dimen name="dot_size">12dp</dimen>
     <string name="add_to_cart">Add to cart</string>
+    <string name="added_to_cart">%1$s added to cart</string>
     <string name="app_name">HyperZone</string>
     <string name="cart">Cart</string>
     <string name="cart_title">Your cart</string>
     <string name="categories">Categories</string>
     <string name="categories_title">Browse categories</string>
+    <string name="checkout">Checkout</string>
     <string name="dark_mode">Dark mode</string>
     <string name="email">Email</string>
+    <string name="empty_cart_subtitle">Add some phones to get started.</string>
+    <string name="empty_cart_title">Your cart is empty</string>
     <string name="get_started">Get Started</string>
     <string name="help">Help</string>
     <string name="home">Home</string>
@@ -27,7 +34,7 @@
     <string name="login">Login</string>
     <string name="login_title">Welcome back</string>
     <string name="lorem_long">Explore our latest devices, accessories, and deals. This is placeholder content to demonstrate scrolling and typography.</string>
-    <string name="lorem_short">High‑performance phone with pro camera.</string>
+    <string name="lorem_short">High-performance phone with pro camera.</string>
     <string name="nav_close">Close navigation drawer</string>
     <string name="nav_open">Open navigation drawer</string>
     <string name="next">Next</string>
@@ -42,13 +49,26 @@
     <string name="onboarding_welcome_title">Welcome to HyperZone</string>
     <string name="orders">Orders</string>
     <string name="password">Password</string>
+    <string name="price_format">Rs. %1$.2f</string>
+    <string name="product_image">Product image</string>
     <string name="product_title">Sample Product</string>
     <string name="profile">Profile</string>
     <string name="profile_title">Your profile</string>
+    <string name="remove">Remove</string>
+    <string name="sample_product_description">
+        Experience the next generation of technology with pro performance, a stunning display, and all-day battery life. The perfect companion for work and play.
+    </string>
+    <string name="sample_product_description_with_name">
+        Experience the next generation of technology with the %1$s. Featuring cutting-edge performance, stunning display, and all-day battery life. The perfect companion for work and play.
+    </string>
     <string name="search">Search</string>
     <string name="settings">Settings</string>
     <string name="settings_title">App Settings</string>
     <string name="skip">Skip</string>
+    <string name="total_format">Total: Rs. %1$.2f</string>
+    <string name="total_placeholder">Total: Rs. 0.00</string>
+    <string name="total_prefix">Total:</string>
+    <string name="view_cart">VIEW CART</string>
     <string name="wishlist">Wishlist</string>
     <style name="Text" parent="TextAppearance.AppCompat.Body1">
         <item name="android:textSize">14sp</item>
@@ -79,6 +99,8 @@
         <item name="colorPrimary">@color/accent</item>
         <item name="colorSecondary">@color/accent</item>
         <item name="colorSurface">@color/cardBackground</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorSurfaceVariant">@color/colorSurfaceVariant</item>
 
         
         <item name="android:windowBackground">@color/background</item>
@@ -95,9 +117,10 @@
         <item name="colorControlNormal">@color/textSecondary</item>
         <item name="colorControlActivated">@color/accent</item>
     </style>
+    <style name="Theme.HyperZone.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+    <style name="Theme.HyperZone.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light"/>
     <style name="Theme.HyperZone.Splash" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/splash_bg</item>
-        
         <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
         <item name="postSplashScreenTheme">@style/Theme.HyperZone</item>
     </style>

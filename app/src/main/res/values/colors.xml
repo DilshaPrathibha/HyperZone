@@ -3,9 +3,12 @@
     <!-- Light tokens -->
     <color name="accent">#007AFF</color>
     <color name="background">#FFFFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
     <color name="textPrimary">#FF000000</color>
     <color name="textSecondary">#FF444444</color>
     <color name="cardBackground">#FFF5F5F5</color>
+    <color name="colorOnSurface">#1D1B20</color>
+    <color name="colorSurfaceVariant">#E7E0EC</color>
 
     <!-- Derived -->
     <color name="onPrimary">#FFFFFFFF</color>

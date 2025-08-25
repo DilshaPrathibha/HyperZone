@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.hyperzone">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,7 +24,10 @@
         </activity>
 
         <activity android:name=".ui.MainActivity" android:exported="false" />
-        <activity android:name=".ui.ProductDetailActivity" android:exported="false" />
+
+        <!-- 👇 Keep ONE entry that matches the real class path -->
+        <activity android:name=".ui.product.ProductDetailActivity" android:exported="false" />
+
         <activity android:name=".ui.SearchActivity" android:exported="false" />
     </application>
 </manifest>

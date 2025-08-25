@@ -47,8 +47,10 @@
         <activity
             android:name="com.example.hyperzone.ui.MainActivity"
             android:exported="false" />
+
+        <!-- 👇 Keep ONE entry that matches the real class path -->
         <activity
-            android:name="com.example.hyperzone.ui.ProductDetailActivity"
+            android:name="com.example.hyperzone.ui.product.ProductDetailActivity"
             android:exported="false" />
         <activity
             android:name="com.example.hyperzone.ui.SearchActivity"
