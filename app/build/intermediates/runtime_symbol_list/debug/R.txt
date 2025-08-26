@@ -3026,6 +3026,7 @@ int drawable abc_textfield_search_material 0x7f070075
 int drawable abc_vector_test 0x7f070076
 int drawable avd_hide_password 0x7f070077
 int drawable avd_show_password 0x7f070078
+int drawable bg_ad_banner 0x7f0700fa
 int drawable btn_checkbox_checked_mtrl 0x7f070079
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f07007a
 int drawable btn_checkbox_unchecked_mtrl 0x7f07007b
@@ -3227,6 +3228,9 @@ int id action_search 0x7f080044
 int id action_text 0x7f080045
 int id actions 0x7f080046
 int id activity_chooser_view_content 0x7f080047
+int id adCard 0x7f080240
+int id adCta 0x7f080241
+int id adTitle 0x7f080242
 int id add 0x7f080048
 int id alertTitle 0x7f080049
 int id aligned 0x7f08004a
@@ -3403,6 +3407,7 @@ int id hide_ime_id 0x7f0800f4
 int id hideable 0x7f0800f5
 int id home 0x7f0800f6
 int id homeAsUp 0x7f0800f7
+int id homeScroll 0x7f080243
 int id honorRequest 0x7f0800f8
 int id horizontal 0x7f0800f9
 int id horizontal_only 0x7f0800fa
@@ -3607,6 +3612,8 @@ int id search_mag_icon 0x7f0801be
 int id search_plate 0x7f0801bf
 int id search_src_text 0x7f0801c0
 int id search_voice_btn 0x7f0801c1
+int id sectionSubtitle 0x7f080244
+int id sectionTitle 0x7f080245
 int id select_dialog_listview 0x7f0801c2
 int id selected 0x7f0801c3
 int id selection_type 0x7f0801c4

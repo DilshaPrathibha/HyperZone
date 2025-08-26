@@ -3027,6 +3027,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_ad_banner
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3228,6 +3229,9 @@ id action_search
 id action_text
 id actions
 id activity_chooser_view_content
+id adCard
+id adCta
+id adTitle
 id add
 id alertTitle
 id aligned
@@ -3404,6 +3408,7 @@ id hide_ime_id
 id hideable
 id home
 id homeAsUp
+id homeScroll
 id honorRequest
 id horizontal
 id horizontal_only
@@ -3608,6 +3613,8 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id sectionSubtitle
+id sectionTitle
 id select_dialog_listview
 id selected
 id selection_type
