@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Dark tokens -->
-    <color name="accent">#007AFF</color>
-    <color name="background">#FF121212</color>
-    <color name="textPrimary">#FFFFFFFF</color>
-    <color name="textSecondary">#FFBBBBBB</color>
-    <color name="cardBackground">#FF1E1E1E</color>
+    <color name="accent">#0A84FF</color>
+    <color name="background">#121212</color>
+    <color name="textPrimary">#F2F2F7</color>
+    <color name="textSecondary">#D1D1D6</color>
+    <color name="cardBackground">#000000</color>
 
     <!-- Derived -->
-    <color name="onPrimary">#FFFFFFFF</color>
-    <color name="surface">@color/cardBackground</color>
+    <color name="onPrimary">#F2F2F7</color>
+    <color name="surface">#000000</color>
 
     <!-- Splash (explicit solid color; silences hint) -->
-    <color name="splash_bg">#FF121212</color>
+    <color name="splash_bg">#121212</color>
 </resources>

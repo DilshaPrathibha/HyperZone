@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="accent">#007AFF</color>
-    <color name="background">#FFFFFFFF</color>
-    <color name="cardBackground">#FFF5F5F5</color>
-    <color name="colorOnSurface">#1D1B20</color>
-    <color name="colorPrimary">#007AFF</color>
-    <color name="colorPrimaryVariant">#0051A8</color>
+    <color name="background">#F8F8FA</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="colorOnSurface">#1C1C1E</color>
+    <color name="colorPrimary">#F2F2F7</color>
+    <color name="colorPrimaryVariant">#C7C7CC</color>
     <color name="colorSurfaceVariant">#E7E0EC</color>
-    <color name="onPrimary">#FFFFFFFF</color>
-    <color name="splash_bg">#FFFFFFFF</color>
-    <color name="surface">@color/cardBackground</color>
-    <color name="textPrimary">#FF000000</color>
-    <color name="textSecondary">#FF444444</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="onPrimary">#1C1C1E</color>
+    <color name="splash_bg">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="textPrimary">#1C1C1E</color>
+    <color name="textSecondary">#6E6E73</color>
+    <color name="white">#FFFFFF</color>
     <dimen name="dot_margin">8dp</dimen>
     <dimen name="dot_size">12dp</dimen>
     <string name="add_to_cart">Add to cart</string>
