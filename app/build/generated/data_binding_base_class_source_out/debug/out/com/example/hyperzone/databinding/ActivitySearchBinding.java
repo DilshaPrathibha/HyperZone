@@ -4,32 +4,49 @@ package com.example.hyperzone.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
-import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.hyperzone.R;
+import com.google.android.material.appbar.MaterialToolbar;
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivitySearchBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final EditText etQuery;
+  public final TextInputLayout inputLayout;
 
-  private ActivitySearchBinding(@NonNull LinearLayout rootView, @NonNull EditText etQuery) {
+  @NonNull
+  public final TextInputEditText inputQuery;
+
+  @NonNull
+  public final RecyclerView recyclerSearch;
+
+  @NonNull
+  public final MaterialToolbar toolbar;
+
+  private ActivitySearchBinding(@NonNull ConstraintLayout rootView,
+      @NonNull TextInputLayout inputLayout, @NonNull TextInputEditText inputQuery,
+      @NonNull RecyclerView recyclerSearch, @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
-    this.etQuery = etQuery;
+    this.inputLayout = inputLayout;
+    this.inputQuery = inputQuery;
+    this.recyclerSearch = recyclerSearch;
+    this.toolbar = toolbar;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -54,13 +71,32 @@ public final class ActivitySearchBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.etQuery;
-      EditText etQuery = ViewBindings.findChildViewById(rootView, id);
-      if (etQuery == null) {
+      id = R.id.inputLayout;
+      TextInputLayout inputLayout = ViewBindings.findChildViewById(rootView, id);
+      if (inputLayout == null) {
         break missingId;
       }
 
-      return new ActivitySearchBinding((LinearLayout) rootView, etQuery);
+      id = R.id.inputQuery;
+      TextInputEditText inputQuery = ViewBindings.findChildViewById(rootView, id);
+      if (inputQuery == null) {
+        break missingId;
+      }
+
+      id = R.id.recycler_search;
+      RecyclerView recyclerSearch = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerSearch == null) {
+        break missingId;
+      }
+
+      id = R.id.toolbar;
+      MaterialToolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+
+      return new ActivitySearchBinding((ConstraintLayout) rootView, inputLayout, inputQuery,
+          recyclerSearch, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

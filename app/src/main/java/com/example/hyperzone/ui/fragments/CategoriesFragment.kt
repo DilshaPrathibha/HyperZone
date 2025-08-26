@@ -16,7 +16,7 @@ class CategoriesFragment : Fragment() {
     private var _binding: FragmentCategoriesBinding? = null
     private val binding get() = _binding!!
     private lateinit var productAdapter: ProductAdapter
-    private val allProducts = SampleData.products.toMutableList()
+    private val allProducts: MutableList<Product> = SampleData.products.toMutableList()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -45,8 +45,9 @@ class CategoriesFragment : Fragment() {
     }
 
     private fun setupChipGroup() {
-        binding.chipGroup.setOnCheckedChangeListener { group, checkedId ->
-            val chip = group.findViewById<Chip>(checkedId)
+        binding.chipGroup.setOnCheckedStateChangeListener { group, checkedIds ->
+            val selectedChipId = checkedIds.firstOrNull() ?: -1
+            val chip = group.findViewById<Chip>(selectedChipId)
             chip?.let { filterProducts(it.text.toString()) } ?: filterProducts("")
         }
     }

@@ -13,8 +13,8 @@ import com.example.hyperzone.data.model.Product
 class SearchActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySearchBinding
     private lateinit var productAdapter: ProductAdapter
-    private val allProducts = SampleData.products.toMutableList()
-    private var filteredProducts = mutableListOf<Product>()
+    private val allProducts: List<Product> = SampleData.products
+    private var filteredProducts: List<Product> = emptyList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -63,11 +63,11 @@ class SearchActivity : AppCompatActivity() {
 
     private fun filterProducts(query: String) {
         filteredProducts = if (query.isEmpty()) {
-            allProducts.toMutableList()
+            allProducts
         } else {
             allProducts.filter { product ->
                 product.name.contains(query, ignoreCase = true)
-            }.toMutableList()
+            }
         }
         updateProducts(filteredProducts)
     }

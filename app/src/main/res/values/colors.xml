@@ -9,10 +9,19 @@
     <color name="cardBackground">#FFF5F5F5</color>
     <color name="colorOnSurface">#1D1B20</color>
     <color name="colorSurfaceVariant">#E7E0EC</color>
+    <color name="colorError">#B00020</color>
+    <color name="colorOnError">#FFFFFF</color>
+    <color name="colorErrorContainer">#F9DEDC</color>
+    <color name="colorOnErrorContainer">#410E0B</color>
 
     <!-- Derived -->
     <color name="onPrimary">#FFFFFFFF</color>
     <color name="surface">@color/cardBackground</color>
+
+    <!-- Additional colors -->
+    <color name="colorPrimaryVariant">@color/colorPrimary</color>
+    <color name="blue_accent">#007AFF</color>
+    <color name="colorOnPrimary">#FFFFFFFF</color>
 
     <!-- Splash (explicit solid color; silences hint) -->
     <color name="splash_bg">#FFFFFFFF</color>

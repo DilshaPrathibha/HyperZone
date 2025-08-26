@@ -4,33 +4,38 @@ package com.example.hyperzone.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.hyperzone.R;
-import com.google.android.material.materialswitch.MaterialSwitch;
+import com.google.android.material.appbar.MaterialToolbar;
+import com.google.android.material.switchmaterial.SwitchMaterial;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivitySettingsBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final MaterialSwitch switchTheme;
+  public final SwitchMaterial switchDark;
 
-  private ActivitySettingsBinding(@NonNull LinearLayout rootView,
-      @NonNull MaterialSwitch switchTheme) {
+  @NonNull
+  public final MaterialToolbar toolbar;
+
+  private ActivitySettingsBinding(@NonNull ConstraintLayout rootView,
+      @NonNull SwitchMaterial switchDark, @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
-    this.switchTheme = switchTheme;
+    this.switchDark = switchDark;
+    this.toolbar = toolbar;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -55,13 +60,19 @@ public final class ActivitySettingsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.switchTheme;
-      MaterialSwitch switchTheme = ViewBindings.findChildViewById(rootView, id);
-      if (switchTheme == null) {
+      id = R.id.switch_dark;
+      SwitchMaterial switchDark = ViewBindings.findChildViewById(rootView, id);
+      if (switchDark == null) {
         break missingId;
       }
 
-      return new ActivitySettingsBinding((LinearLayout) rootView, switchTheme);
+      id = R.id.toolbar;
+      MaterialToolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+
+      return new ActivitySettingsBinding((ConstraintLayout) rootView, switchDark, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

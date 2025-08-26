@@ -4,6 +4,7 @@ import android.content.Context
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.content.edit
 import com.example.hyperzone.databinding.ActivitySettingsBinding
 
 class SettingsActivity : AppCompatActivity() {
@@ -34,7 +35,9 @@ class SettingsActivity : AppCompatActivity() {
         binding.switchDark.isChecked = isDarkMode
 
         binding.switchDark.setOnCheckedChangeListener { _, isChecked ->
-            sharedPrefs.edit().putBoolean("dark_mode", isChecked).apply()
+            sharedPrefs.edit {
+                putBoolean("dark_mode", isChecked)
+            }
             
             val mode = if (isChecked) {
                 AppCompatDelegate.MODE_NIGHT_YES

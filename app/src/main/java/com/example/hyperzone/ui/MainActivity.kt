@@ -13,7 +13,10 @@ import com.example.hyperzone.databinding.ActivityMainBinding
 import com.example.hyperzone.ui.fragments.CartFragment
 import com.example.hyperzone.ui.fragments.CategoriesFragment
 import com.example.hyperzone.ui.fragments.ProfileFragment
-import com.example.hyperzone.ui.home.HomeFragment   // ✅ correct import
+import com.example.hyperzone.ui.home.HomeFragment
+import com.example.hyperzone.ui.notifications.NotificationsActivity
+import com.example.hyperzone.ui.orders.OrdersActivity
+import com.example.hyperzone.ui.wishlist.WishlistActivity
 import com.google.android.material.badge.BadgeDrawable
 import com.google.android.material.navigation.NavigationView
 
@@ -81,10 +84,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.drawer_orders -> startActivity(Intent(this, com.example.hyperzone.ui.orders.OrdersActivity::class.java))
-            R.id.drawer_wishlist -> startActivity(Intent(this, com.example.hyperzone.ui.wishlist.WishlistActivity::class.java))
-            R.id.drawer_notifications -> startActivity(Intent(this, com.example.hyperzone.ui.notifications.NotificationsActivity::class.java))
-            R.id.drawer_settings -> startActivity(Intent(this, com.example.hyperzone.ui.SettingsActivity::class.java))
+            R.id.drawer_orders -> startActivity(Intent(this, OrdersActivity::class.java))
+            R.id.drawer_wishlist -> startActivity(Intent(this, WishlistActivity::class.java))
+            R.id.drawer_notifications -> startActivity(Intent(this, NotificationsActivity::class.java))
+            R.id.drawer_settings -> startActivity(Intent(this, SettingsActivity::class.java))
             R.id.drawer_help -> { /* TODO: Handle help */ }
         }
         binding.drawerLayout.closeDrawer(GravityCompat.START)

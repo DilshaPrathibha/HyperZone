@@ -4,25 +4,69 @@ package com.example.hyperzone.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.hyperzone.R;
+import com.google.android.material.chip.Chip;
+import com.google.android.material.chip.ChipGroup;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentCategoriesBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
-  private FragmentCategoriesBinding(@NonNull LinearLayout rootView) {
+  @NonNull
+  public final Chip chipAll;
+
+  @NonNull
+  public final ChipGroup chipGroup;
+
+  @NonNull
+  public final Chip chipLite;
+
+  @NonNull
+  public final Chip chipMax;
+
+  @NonNull
+  public final Chip chipMini;
+
+  @NonNull
+  public final Chip chipNano;
+
+  @NonNull
+  public final Chip chipPro;
+
+  @NonNull
+  public final Chip chipSe;
+
+  @NonNull
+  public final RecyclerView recyclerCategories;
+
+  private FragmentCategoriesBinding(@NonNull ConstraintLayout rootView, @NonNull Chip chipAll,
+      @NonNull ChipGroup chipGroup, @NonNull Chip chipLite, @NonNull Chip chipMax,
+      @NonNull Chip chipMini, @NonNull Chip chipNano, @NonNull Chip chipPro, @NonNull Chip chipSe,
+      @NonNull RecyclerView recyclerCategories) {
     this.rootView = rootView;
+    this.chipAll = chipAll;
+    this.chipGroup = chipGroup;
+    this.chipLite = chipLite;
+    this.chipMax = chipMax;
+    this.chipMini = chipMini;
+    this.chipNano = chipNano;
+    this.chipPro = chipPro;
+    this.chipSe = chipSe;
+    this.recyclerCategories = recyclerCategories;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +87,68 @@ public final class FragmentCategoriesBinding implements ViewBinding {
 
   @NonNull
   public static FragmentCategoriesBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.chip_all;
+      Chip chipAll = ViewBindings.findChildViewById(rootView, id);
+      if (chipAll == null) {
+        break missingId;
+      }
 
-    return new FragmentCategoriesBinding((LinearLayout) rootView);
+      id = R.id.chip_group;
+      ChipGroup chipGroup = ViewBindings.findChildViewById(rootView, id);
+      if (chipGroup == null) {
+        break missingId;
+      }
+
+      id = R.id.chip_lite;
+      Chip chipLite = ViewBindings.findChildViewById(rootView, id);
+      if (chipLite == null) {
+        break missingId;
+      }
+
+      id = R.id.chip_max;
+      Chip chipMax = ViewBindings.findChildViewById(rootView, id);
+      if (chipMax == null) {
+        break missingId;
+      }
+
+      id = R.id.chip_mini;
+      Chip chipMini = ViewBindings.findChildViewById(rootView, id);
+      if (chipMini == null) {
+        break missingId;
+      }
+
+      id = R.id.chip_nano;
+      Chip chipNano = ViewBindings.findChildViewById(rootView, id);
+      if (chipNano == null) {
+        break missingId;
+      }
+
+      id = R.id.chip_pro;
+      Chip chipPro = ViewBindings.findChildViewById(rootView, id);
+      if (chipPro == null) {
+        break missingId;
+      }
+
+      id = R.id.chip_se;
+      Chip chipSe = ViewBindings.findChildViewById(rootView, id);
+      if (chipSe == null) {
+        break missingId;
+      }
+
+      id = R.id.recycler_categories;
+      RecyclerView recyclerCategories = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerCategories == null) {
+        break missingId;
+      }
+
+      return new FragmentCategoriesBinding((ConstraintLayout) rootView, chipAll, chipGroup,
+          chipLite, chipMax, chipMini, chipNano, chipPro, chipSe, recyclerCategories);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

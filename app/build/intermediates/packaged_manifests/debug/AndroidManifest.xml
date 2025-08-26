@@ -15,6 +15,7 @@
     <uses-permission android:name="com.example.hyperzone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
+        android:name="com.example.hyperzone.MyApp"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -47,6 +48,18 @@
         <activity
             android:name="com.example.hyperzone.ui.MainActivity"
             android:exported="false" />
+        <activity
+            android:name="com.example.hyperzone.ui.wishlist.WishlistActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.hyperzone.ui.MainActivity" />
+        <activity
+            android:name="com.example.hyperzone.ui.orders.OrdersActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.hyperzone.ui.MainActivity" />
+        <activity
+            android:name="com.example.hyperzone.ui.notifications.NotificationsActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.hyperzone.ui.MainActivity" />
 
         <!-- 👇 Keep ONE entry that matches the real class path -->
         <activity
