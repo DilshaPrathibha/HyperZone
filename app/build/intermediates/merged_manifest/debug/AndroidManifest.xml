@@ -68,6 +68,10 @@
         <activity
             android:name="com.example.hyperzone.ui.SearchActivity"
             android:exported="false" />
+        <activity
+            android:name="com.example.hyperzone.ui.compare.CompareActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.hyperzone.ui.MainActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

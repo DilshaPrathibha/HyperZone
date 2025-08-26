@@ -19,6 +19,7 @@ dimen dot_margin
 dimen dot_size
 drawable ic_cart_24
 drawable ic_category_24
+drawable ic_compare_arrows_24
 drawable ic_delete_24
 drawable ic_help_24
 drawable ic_home_24
@@ -26,6 +27,7 @@ drawable ic_notifications_24
 drawable ic_orders_24
 drawable ic_phone_1
 drawable ic_phone_24
+drawable ic_phone_placeholder
 drawable ic_profile_24
 drawable ic_search_24
 drawable ic_settings_24
@@ -67,12 +69,14 @@ id empty_title
 id fragment_container
 id heroImage
 id img
+id imgA
+id imgB
 id inputLayout
 id inputQuery
 id logo
 id name
 id nav_cart
-id nav_categories
+id nav_compare
 id nav_home
 id nav_profile
 id nav_view
@@ -92,10 +96,14 @@ id recycler_cart
 id recycler_categories
 id recycler_search
 id scroll
+id spinnerA
+id spinnerB
 id switch_dark
+id tableSpecs
 id toolbar
 id total_bar
 id tv_total
+layout activity_compare
 layout activity_login
 layout activity_main
 layout activity_notifications

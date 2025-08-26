@@ -3,6 +3,7 @@ package com.example.hyperzone.ui
 import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
+import com.example.hyperzone.ui.compare.CompareActivity
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
@@ -52,8 +53,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                     supportFragmentManager.commit { replace(R.id.fragment_container, HomeFragment()) }
                     true
                 }
-                R.id.nav_categories -> {
-                    supportFragmentManager.commit { replace(R.id.fragment_container, CategoriesFragment()) }
+                R.id.nav_compare -> {
+                    startActivity(Intent(this, CompareActivity::class.java))
                     true
                 }
                 R.id.nav_cart -> {

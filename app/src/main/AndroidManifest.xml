@@ -49,5 +49,10 @@
             android:exported="false" />
 
         <activity android:name=".ui.SearchActivity" android:exported="false" />
+
+        <activity
+            android:name=".ui.compare.CompareActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
     </application>
 </manifest>

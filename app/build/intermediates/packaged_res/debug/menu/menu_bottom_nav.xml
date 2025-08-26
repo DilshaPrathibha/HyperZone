@@ -7,9 +7,9 @@
         android:iconTint="@color/nav_icon_tint"
         android:titleTextColor="@color/nav_text_tint" />
     <item
-        android:id="@+id/nav_categories"
-        android:title="@string/categories"
-        android:icon="@drawable/ic_category_24"
+        android:id="@+id/nav_compare"
+        android:title="Compare"
+        android:icon="@drawable/ic_compare_arrows_24"
         android:iconTint="@color/nav_icon_tint"
         android:titleTextColor="@color/nav_text_tint" />
     <item

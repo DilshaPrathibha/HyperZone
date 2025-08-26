@@ -3053,6 +3053,7 @@ drawable ic_cart_24
 drawable ic_category_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_compare_arrows_24
 drawable ic_delete_24
 drawable ic_help_24
 drawable ic_home_24
@@ -3068,6 +3069,7 @@ drawable ic_notifications_24
 drawable ic_orders_24
 drawable ic_phone_1
 drawable ic_phone_24
+drawable ic_phone_placeholder
 drawable ic_profile_24
 drawable ic_search_24
 drawable ic_search_black_24
@@ -3412,6 +3414,8 @@ id ignore
 id ignoreRequest
 id image
 id img
+id imgA
+id imgB
 id immediateStop
 id included
 id indeterminate
@@ -3498,7 +3502,7 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id name
 id nav_cart
-id nav_categories
+id nav_compare
 id nav_home
 id nav_profile
 id nav_view
@@ -3624,6 +3628,8 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinnerA
+id spinnerB
 id splashscreen_icon_view
 id spline
 id split_action_bar
@@ -3648,6 +3654,7 @@ id submit_area
 id supportScrollUp
 id switch_dark
 id tabMode
+id tableSpecs
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -3839,6 +3846,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_compare
 layout activity_login
 layout activity_main
 layout activity_notifications
