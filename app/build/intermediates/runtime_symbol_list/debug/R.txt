@@ -3874,6 +3874,7 @@ int layout design_text_input_end_icon 0x7f0b0034
 int layout design_text_input_start_icon 0x7f0b0035
 int layout fragment_cart 0x7f0b0036
 int layout fragment_categories 0x7f0b0037
+int layout fragment_compare 0x7f0b007f
 int layout fragment_home 0x7f0b0038
 int layout fragment_profile 0x7f0b0039
 int layout ime_base_split_test_activity 0x7f0b003a

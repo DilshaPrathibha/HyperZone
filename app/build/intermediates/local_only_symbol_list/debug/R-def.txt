@@ -116,6 +116,7 @@ layout activity_splash
 layout activity_wishlist
 layout fragment_cart
 layout fragment_categories
+layout fragment_compare
 layout fragment_home
 layout fragment_profile
 layout item_cart

@@ -3,7 +3,7 @@ package com.example.hyperzone.ui
 import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
-import com.example.hyperzone.ui.compare.CompareActivity
+import com.example.hyperzone.ui.fragments.CompareFragment
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
@@ -12,7 +12,7 @@ import com.example.hyperzone.R
 import com.example.hyperzone.cart.CartManager
 import com.example.hyperzone.databinding.ActivityMainBinding
 import com.example.hyperzone.ui.fragments.CartFragment
-import com.example.hyperzone.ui.fragments.CategoriesFragment
+import com.example.hyperzone.ui.fragments.CategoriesFragment // not used
 import com.example.hyperzone.ui.fragments.ProfileFragment
 import com.example.hyperzone.ui.home.HomeFragment
 import com.example.hyperzone.ui.notifications.NotificationsActivity
@@ -50,19 +50,28 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         binding.bottomNav.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.nav_home -> {
-                    supportFragmentManager.commit { replace(R.id.fragment_container, HomeFragment()) }
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.fragment_container, HomeFragment())
+                        .commit()
                     true
                 }
                 R.id.nav_compare -> {
-                    startActivity(Intent(this, CompareActivity::class.java))
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.fragment_container, CompareFragment())
+                        .addToBackStack("Compare")
+                        .commit()
                     true
                 }
                 R.id.nav_cart -> {
-                    supportFragmentManager.commit { replace(R.id.fragment_container, CartFragment()) }
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.fragment_container, CartFragment())
+                        .commit()
                     true
                 }
                 R.id.nav_profile -> {
-                    supportFragmentManager.commit { replace(R.id.fragment_container, ProfileFragment()) }
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.fragment_container, ProfileFragment())
+                        .commit()
                     true
                 }
                 else -> false

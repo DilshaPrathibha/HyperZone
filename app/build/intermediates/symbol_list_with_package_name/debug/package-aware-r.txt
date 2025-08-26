@@ -3875,6 +3875,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_cart
 layout fragment_categories
+layout fragment_compare
 layout fragment_home
 layout fragment_profile
 layout ime_base_split_test_activity
