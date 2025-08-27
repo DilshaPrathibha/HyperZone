@@ -72,6 +72,14 @@
             android:name="com.example.hyperzone.ui.compare.CompareActivity"
             android:exported="false"
             android:parentActivityName="com.example.hyperzone.ui.MainActivity" />
+        <activity
+            android:name="com.example.hyperzone.ui.checkout.PaymentMethodActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.hyperzone.ui.MainActivity" />
+        <activity
+            android:name="com.example.hyperzone.ui.checkout.PaymentSuccessActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.hyperzone.ui.MainActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

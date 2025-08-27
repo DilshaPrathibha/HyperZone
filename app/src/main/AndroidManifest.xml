@@ -54,5 +54,15 @@
             android:name=".ui.compare.CompareActivity"
             android:exported="false"
             android:parentActivityName=".ui.MainActivity" />
+            
+        <activity
+            android:name=".ui.checkout.PaymentMethodActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
+            
+        <activity
+            android:name=".ui.checkout.PaymentSuccessActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
     </application>
 </manifest>

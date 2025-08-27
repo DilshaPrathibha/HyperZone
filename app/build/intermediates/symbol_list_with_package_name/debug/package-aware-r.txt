@@ -3085,6 +3085,8 @@ drawable ic_profile_24
 drawable ic_search_24
 drawable ic_search_black_24
 drawable ic_settings_24
+drawable ic_shopping_cart_24
+drawable ic_success_96
 drawable ic_wishlist_24
 drawable icon_background
 drawable img_galaxy_s24
@@ -3171,6 +3173,7 @@ drawable notify_panel_notification_icon_bg
 drawable onboarding_dot_selected
 drawable onboarding_dot_unselected
 drawable profile_picture
+drawable simple_card_bg
 drawable splash_logo
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3283,6 +3286,7 @@ id bounceEnd
 id bounceStart
 id btnAddToCart
 id btnCompare
+id btnContinue
 id btnLogin
 id btnNext
 id btnPrevious
@@ -3294,6 +3298,12 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cardAmazonPay
+id cardApplePay
+id cardBitcoin
+id cardGooglePay
+id cardPayCard
+id cardPayPal
 id carryVelocity
 id center
 id centerCrop
@@ -3720,6 +3730,7 @@ id titleProfile
 id title_template
 id toggle
 id toolbar
+id toolbarBack
 id top
 id topPanel
 id total_bar
@@ -3883,6 +3894,8 @@ layout activity_main
 layout activity_notifications
 layout activity_onboarding
 layout activity_orders
+layout activity_payment_method
+layout activity_payment_success
 layout activity_product_detail
 layout activity_search
 layout activity_settings

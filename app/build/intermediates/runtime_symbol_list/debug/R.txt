@@ -3084,6 +3084,8 @@ int drawable ic_profile_24 0x7f0700af
 int drawable ic_search_24 0x7f0700b0
 int drawable ic_search_black_24 0x7f0700b1
 int drawable ic_settings_24 0x7f0700b2
+int drawable ic_shopping_cart_24 0x7f07010d
+int drawable ic_success_96 0x7f07010e
 int drawable ic_wishlist_24 0x7f0700b3
 int drawable icon_background 0x7f0700b4
 int drawable img_galaxy_s24 0x7f0700b5
@@ -3170,6 +3172,7 @@ int drawable notify_panel_notification_icon_bg 0x7f070105
 int drawable onboarding_dot_selected 0x7f070106
 int drawable onboarding_dot_unselected 0x7f070107
 int drawable profile_picture 0x7f07010c
+int drawable simple_card_bg 0x7f07010f
 int drawable splash_logo 0x7f070108
 int drawable test_level_drawable 0x7f070109
 int drawable tooltip_frame_dark 0x7f07010a
@@ -3282,6 +3285,7 @@ int id bounceEnd 0x7f080068
 int id bounceStart 0x7f080069
 int id btnAddToCart 0x7f08006a
 int id btnCompare 0x7f08006b
+int id btnContinue 0x7f08024b
 int id btnLogin 0x7f08006c
 int id btnNext 0x7f08006d
 int id btnPrevious 0x7f08006e
@@ -3293,6 +3297,12 @@ int id buttonPanel 0x7f080073
 int id cache_measures 0x7f080074
 int id callMeasure 0x7f080075
 int id cancel_button 0x7f080076
+int id cardAmazonPay 0x7f08024c
+int id cardApplePay 0x7f08024d
+int id cardBitcoin 0x7f08024e
+int id cardGooglePay 0x7f08024f
+int id cardPayCard 0x7f080250
+int id cardPayPal 0x7f080251
 int id carryVelocity 0x7f080077
 int id center 0x7f080078
 int id centerCrop 0x7f080079
@@ -3719,6 +3729,7 @@ int id titleProfile 0x7f08021d
 int id title_template 0x7f08021e
 int id toggle 0x7f08021f
 int id toolbar 0x7f080220
+int id toolbarBack 0x7f080252
 int id top 0x7f080221
 int id topPanel 0x7f080222
 int id total_bar 0x7f080223
@@ -3882,6 +3893,8 @@ int layout activity_main 0x7f0b001e
 int layout activity_notifications 0x7f0b001f
 int layout activity_onboarding 0x7f0b0020
 int layout activity_orders 0x7f0b0021
+int layout activity_payment_method 0x7f0b0080
+int layout activity_payment_success 0x7f0b0081
 int layout activity_product_detail 0x7f0b0022
 int layout activity_search 0x7f0b0023
 int layout activity_settings 0x7f0b0024

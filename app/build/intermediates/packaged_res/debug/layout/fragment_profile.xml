@@ -32,14 +32,14 @@
                 android:id="@+id/imgAvatar"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:src="@drawable/profile_picture"
-                android:contentDescription="Profile picture"
-                android:scaleType="centerCrop"
-                android:padding="4dp"
-                android:background="@android:color/darker_gray"
-                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:background="@color/background"
                 android:clickable="true"
-                android:focusable="true"/>
+                android:contentDescription="Profile picture"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_picture" />
 
             <TextView
                 android:id="@+id/txtName"

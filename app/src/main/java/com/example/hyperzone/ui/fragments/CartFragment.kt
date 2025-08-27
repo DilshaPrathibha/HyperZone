@@ -53,7 +53,12 @@ class CartFragment : Fragment() {
         toggleEmpty()
 
         binding.btnCheckout.setOnClickListener {
-            // TODO: hook to real checkout flow
+            startActivity(
+                android.content.Intent(
+                    requireContext(),
+                    com.example.hyperzone.ui.checkout.PaymentMethodActivity::class.java
+                )
+            )
         }
     }
 

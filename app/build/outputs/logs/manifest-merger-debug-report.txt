@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:1-58:12
-INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:1-58:12
-INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:1-58:12
-INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:1-58:12
+ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:1-68:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\625f68a00db373e3a52a675d5d3b9404\transformed\viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\cae17be10ca56c600de39403bf70c13e\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\b5c6cbf41c4fe444d94953cc64fcd488\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
@@ -64,8 +64,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Dilsha\.gradle\caches\9.0-mile
 	xmlns:android
 		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:4:5-57:19
-INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:4:5-57:19
+ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:4:5-67:19
+INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:4:5-67:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\cae17be10ca56c600de39403bf70c13e\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\cae17be10ca56c600de39403bf70c13e\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\b5c6cbf41c4fe444d94953cc64fcd488\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -186,6 +186,22 @@ ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:53:9-56:61
 		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
 		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:54:13-55
+activity#com.example.hyperzone.ui.checkout.PaymentMethodActivity
+ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:58:9-61:61
+	android:parentActivityName
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:61:13-58
+	android:exported
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:59:13-62
+activity#com.example.hyperzone.ui.checkout.PaymentSuccessActivity
+ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:63:9-66:61
+	android:parentActivityName
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:66:13-58
+	android:exported
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:64:13-63
 uses-sdk
 INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml

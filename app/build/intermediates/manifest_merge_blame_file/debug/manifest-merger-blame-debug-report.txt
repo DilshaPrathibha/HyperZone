@@ -20,7 +20,7 @@
 15-->[androidx.core:core:1.13.1] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\79541e4ae948949d0dc5b604b2c8ce5d\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:4:5-57:19
+17-->D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:4:5-67:19
 18        android:name="com.example.hyperzone.MyApp"
 18-->D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:5:9-30
 19        android:allowBackup="true"
@@ -129,72 +129,88 @@
 73-->D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:55:13-37
 74            android:parentActivityName="com.example.hyperzone.ui.MainActivity" />
 74-->D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:56:13-58
-75
-76        <provider
-76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ee6fd21470200f1d3cebfc52852eaca6\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-77            android:name="androidx.startup.InitializationProvider"
-77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ee6fd21470200f1d3cebfc52852eaca6\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-78            android:authorities="com.example.hyperzone.androidx-startup"
-78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ee6fd21470200f1d3cebfc52852eaca6\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-79            android:exported="false" >
-79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ee6fd21470200f1d3cebfc52852eaca6\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-80            <meta-data
-80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ee6fd21470200f1d3cebfc52852eaca6\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ee6fd21470200f1d3cebfc52852eaca6\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-82                android:value="androidx.startup" />
-82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ee6fd21470200f1d3cebfc52852eaca6\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-83            <meta-data
-83-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ab94e0042c49ddc5be031730289e9667\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-84-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ab94e0042c49ddc5be031730289e9667\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-85                android:value="androidx.startup" />
-85-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ab94e0042c49ddc5be031730289e9667\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-86            <meta-data
-86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
-87                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
-88                android:value="androidx.startup" />
-88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
-89        </provider>
-90
-91        <receiver
-91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
-92            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
-93            android:directBootAware="false"
-93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
-94            android:enabled="true"
-94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
-95            android:exported="true"
-95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
-96            android:permission="android.permission.DUMP" >
-96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
-97            <intent-filter>
-97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
-98                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
-99            </intent-filter>
-100            <intent-filter>
-100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
-101                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
-102            </intent-filter>
-103            <intent-filter>
-103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
-104                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
-105            </intent-filter>
-106            <intent-filter>
-106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
-107                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
-108            </intent-filter>
-109        </receiver>
-110    </application>
-111
-112</manifest>
+75        <activity
+75-->D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:58:9-61:61
+76            android:name="com.example.hyperzone.ui.checkout.PaymentMethodActivity"
+76-->D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:59:13-62
+77            android:exported="false"
+77-->D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:60:13-37
+78            android:parentActivityName="com.example.hyperzone.ui.MainActivity" />
+78-->D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:61:13-58
+79        <activity
+79-->D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:63:9-66:61
+80            android:name="com.example.hyperzone.ui.checkout.PaymentSuccessActivity"
+80-->D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:64:13-63
+81            android:exported="false"
+81-->D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:65:13-37
+82            android:parentActivityName="com.example.hyperzone.ui.MainActivity" />
+82-->D:\MAD Project\HyperZone\app\src\main\AndroidManifest.xml:66:13-58
+83
+84        <provider
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ee6fd21470200f1d3cebfc52852eaca6\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ee6fd21470200f1d3cebfc52852eaca6\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+86            android:authorities="com.example.hyperzone.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ee6fd21470200f1d3cebfc52852eaca6\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ee6fd21470200f1d3cebfc52852eaca6\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ee6fd21470200f1d3cebfc52852eaca6\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ee6fd21470200f1d3cebfc52852eaca6\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ee6fd21470200f1d3cebfc52852eaca6\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ab94e0042c49ddc5be031730289e9667\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ab94e0042c49ddc5be031730289e9667\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\ab94e0042c49ddc5be031730289e9667\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+96                android:value="androidx.startup" />
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+97        </provider>
+98
+99        <receiver
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+100            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+101            android:directBootAware="false"
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+102            android:enabled="true"
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+103            android:exported="true"
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+104            android:permission="android.permission.DUMP" >
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+106                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+109                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+112                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+115                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dilsha\.gradle\caches\9.0-milestone-1\transforms\5c9c19ba83fdf87d273bd895b89e12e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+116            </intent-filter>
+117        </receiver>
+118    </application>
+119
+120</manifest>
