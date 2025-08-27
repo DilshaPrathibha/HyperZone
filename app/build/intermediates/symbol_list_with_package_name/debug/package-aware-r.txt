@@ -3061,6 +3061,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_arrow_back
 drawable ic_arrow_back_black_24
 drawable ic_badge_24
 drawable ic_call_answer
@@ -3318,12 +3319,16 @@ id bounceStart
 id btnAddToCart
 id btnCompare
 id btnContinue
+id btnFacebook
+id btnGoogle
 id btnLogin
 id btnNext
 id btnPrevious
 id btnRemove
 id btnSignOut
+id btnSignUp
 id btnSkip
+id btnTwitter
 id btn_checkout
 id buttonPanel
 id cache_measures
@@ -3435,7 +3440,9 @@ id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id escape
+id etConfirmPassword
 id etEmail
+id etName
 id etPassword
 id exitUntilCollapsed
 id expand_activities_button
@@ -3762,6 +3769,10 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id tilConfirmPassword
+id tilEmail
+id tilName
+id tilPassword
 id time
 id title
 id titleDividerNoCustom
@@ -3787,6 +3798,7 @@ id transition_transform
 id triangle
 id tvCurrencyValue
 id tvLanguageValue
+id tvLoginPrompt
 id tvSignUpPrompt
 id tvVersion
 id tv_total
@@ -3942,6 +3954,7 @@ layout activity_payment_success
 layout activity_product_detail
 layout activity_search
 layout activity_settings
+layout activity_sign_up
 layout activity_splash
 layout activity_wishlist
 layout custom_dialog
@@ -4068,6 +4081,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string add_to_cart
 string added_to_cart
+string already_have_account
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -4095,6 +4109,8 @@ string character_counter_pattern
 string checkout
 string clear_text_end_icon_content_description
 string compare
+string confirm_password
+string create_an_account
 string dark_mode
 string dont_have_account
 string email
@@ -4102,11 +4118,16 @@ string empty_cart_subtitle
 string empty_cart_title
 string empty_wishlist
 string error_a11y_label
+string error_field_required
 string error_icon_content_description
+string error_invalid_email
+string error_password_too_short
+string error_passwords_dont_match
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string forgot_password
+string full_name
 string get_started
 string help
 string hide_bottom_view_on_scroll_behavior

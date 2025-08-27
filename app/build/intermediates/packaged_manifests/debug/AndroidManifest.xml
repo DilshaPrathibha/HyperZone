@@ -20,9 +20,9 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.HyperZone" >
@@ -31,6 +31,9 @@
             android:exported="false" />
         <activity
             android:name="com.example.hyperzone.ui.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hyperzone.ui.SignUpActivity"
             android:exported="false" />
         <activity
             android:name="com.example.hyperzone.ui.OnboardingActivity"

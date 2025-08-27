@@ -51,8 +51,8 @@ class LoginActivity : AppCompatActivity() {
             // Make only the "Sign up" part clickable
             binding.tvSignUpPrompt.movementMethod = android.text.method.LinkMovementMethod.getInstance()
             binding.tvSignUpPrompt.setOnClickListener {
-                // For now, just show a toast. Replace with actual sign-up navigation later
-                Toast.makeText(this, "Sign up clicked", Toast.LENGTH_SHORT).show()
+                startActivity(Intent(this, SignUpActivity::class.java))
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
             }
             
         } catch (e: Exception) {

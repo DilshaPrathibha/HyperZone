@@ -4,32 +4,48 @@ package com.example.hyperzone.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
+import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.hyperzone.R;
 import com.google.android.material.button.MaterialButton;
+import com.google.android.material.textfield.TextInputEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
   public final MaterialButton btnLogin;
 
-  private ActivityLoginBinding(@NonNull LinearLayout rootView, @NonNull MaterialButton btnLogin) {
+  @NonNull
+  public final TextInputEditText etEmail;
+
+  @NonNull
+  public final TextInputEditText etPassword;
+
+  @NonNull
+  public final TextView tvSignUpPrompt;
+
+  private ActivityLoginBinding(@NonNull ScrollView rootView, @NonNull MaterialButton btnLogin,
+      @NonNull TextInputEditText etEmail, @NonNull TextInputEditText etPassword,
+      @NonNull TextView tvSignUpPrompt) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
+    this.etEmail = etEmail;
+    this.etPassword = etPassword;
+    this.tvSignUpPrompt = tvSignUpPrompt;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -60,7 +76,26 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((LinearLayout) rootView, btnLogin);
+      id = R.id.etEmail;
+      TextInputEditText etEmail = ViewBindings.findChildViewById(rootView, id);
+      if (etEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.etPassword;
+      TextInputEditText etPassword = ViewBindings.findChildViewById(rootView, id);
+      if (etPassword == null) {
+        break missingId;
+      }
+
+      id = R.id.tvSignUpPrompt;
+      TextView tvSignUpPrompt = ViewBindings.findChildViewById(rootView, id);
+      if (tvSignUpPrompt == null) {
+        break missingId;
+      }
+
+      return new ActivityLoginBinding((ScrollView) rootView, btnLogin, etEmail, etPassword,
+          tvSignUpPrompt);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -12,6 +12,7 @@
 
         <activity android:name=".ui.SettingsActivity" android:exported="false" />
         <activity android:name=".ui.LoginActivity" android:exported="false" />
+        <activity android:name=".ui.SignUpActivity" android:exported="false" />
         <activity android:name=".ui.OnboardingActivity" android:exported="false" />
 
         <activity
