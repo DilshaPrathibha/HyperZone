@@ -1447,10 +1447,13 @@ color dim_foreground_material_dark
 color dim_foreground_material_light
 color error_color_material_dark
 color error_color_material_light
+color facebook_blue
 color foreground_material_dark
 color foreground_material_light
+color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_gray
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2118,6 +2121,7 @@ color pay_stroke
 color pay_surface
 color pay_text_primary
 color pay_text_secondary
+color primary
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2126,6 +2130,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color productCardBackground
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -3072,10 +3077,13 @@ drawable ic_compare_arrows_24
 drawable ic_delete_24
 drawable ic_description_24
 drawable ic_email_24
+drawable ic_facebook_24
+drawable ic_google_24
 drawable ic_help_24
 drawable ic_home_24
 drawable ic_keyboard_black_24dp
 drawable ic_language_24
+drawable ic_lock_24
 drawable ic_logout_24
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
@@ -3105,6 +3113,7 @@ drawable ic_settings_24
 drawable ic_shopping_cart_24
 drawable ic_success_96
 drawable ic_wishlist_24
+drawable ic_x_24
 drawable icon_background
 drawable img_galaxy_s24
 drawable img_iphone_15
@@ -3426,6 +3435,8 @@ id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id escape
+id etEmail
+id etPassword
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3776,6 +3787,7 @@ id transition_transform
 id triangle
 id tvCurrencyValue
 id tvLanguageValue
+id tvSignUpPrompt
 id tvVersion
 id tv_total
 id txtName
@@ -4084,6 +4096,7 @@ string checkout
 string clear_text_end_icon_content_description
 string compare
 string dark_mode
+string dont_have_account
 string email
 string empty_cart_subtitle
 string empty_cart_title
@@ -4093,6 +4106,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string forgot_password
 string get_started
 string help
 string hide_bottom_view_on_scroll_behavior
@@ -4101,6 +4115,7 @@ string home_title
 string icon_content_description
 string item_view_role_description
 string login
+string login_subtitle
 string login_title
 string lorem_long
 string lorem_short
@@ -4218,6 +4233,7 @@ string onboarding_subtitle
 string onboarding_title
 string onboarding_welcome_subtitle
 string onboarding_welcome_title
+string or_continue_with
 string orders
 string password
 string password_toggle_content_description
@@ -4245,6 +4261,7 @@ string settings
 string settings_title
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
+string sign_up
 string skip
 string status_bar_notification_info_overflow
 string total_format
@@ -4600,6 +4617,8 @@ style RtlOverlay_Widget_AppCompat_Search_DropDown_Text
 style RtlOverlay_Widget_AppCompat_SearchView_MagIcon
 style RtlUnderlay_Widget_AppCompat_ActionButton
 style RtlUnderlay_Widget_AppCompat_ActionButton_Overflow
+style ShapeAppearance_App_MediumComponent
+style ShapeAppearance_App_SmallComponent
 style ShapeAppearance_M3_Comp_Badge_Large_Shape
 style ShapeAppearance_M3_Comp_Badge_Shape
 style ShapeAppearance_M3_Comp_BottomAppBar_Container_Shape

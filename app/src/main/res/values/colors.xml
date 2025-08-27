@@ -4,9 +4,10 @@
     <color name="accent">#007AFF</color>
     <color name="background">#F8F8FA</color>
     <color name="white">#FFFFFF</color>
-    <color name="textPrimary">#1C1C1E</color>
-    <color name="textSecondary">#6E6E73</color>
-    <color name="cardBackground">#F5F5F5</color>  <!-- Light gray background for cards -->
+    <color name="textPrimary">#000000</color>  <!-- Darker black for primary text -->
+    <color name="textSecondary">#424242</color>  <!-- Darker gray for secondary text -->
+    <color name="cardBackground">#FFFFFF</color>  <!-- White background for cards -->
+    <color name="productCardBackground">#F0F0F0</color>  <!-- Slightly darker gray for product cards -->
     <color name="card_stroke">#E5E7EC</color>
     <color name="colorOnSurface">#1C1C1E</color>
     <color name="colorSurfaceVariant">#E5E7EC</color>
@@ -32,4 +33,10 @@
     <color name="pay_text_primary">#212121</color>
     <color name="pay_text_secondary">#616161</color>
     <color name="pay_stroke">#331976D2</color>
+    
+    <!-- Login Page Colors -->
+    <color name="primary">#2196F3</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="facebook_blue">#1877F2</color>
 </resources>

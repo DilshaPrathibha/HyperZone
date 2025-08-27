@@ -5,7 +5,8 @@
     <color name="background">#121212</color>
     <color name="textPrimary">#F2F2F7</color>
     <color name="textSecondary">#CBCBF8</color>
-    <color name="cardBackground">#000000</color>
+    <color name="cardBackground">#1E1E1E</color>  <!-- Dark gray background for cards -->
+    <color name="productCardBackground">#2D2D2D</color>  <!-- Darker gray for product cards -->
 
     <!-- Derived -->
     <color name="onPrimary">#F2F2F7</color>

@@ -134,7 +134,7 @@
             android:id="@+id/tvCurrencyValue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="USD"
+            android:text="LKR"
             android:textColor="#757575" />
     </LinearLayout>
 

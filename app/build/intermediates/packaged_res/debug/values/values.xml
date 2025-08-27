@@ -3,12 +3,15 @@
     <color name="accent">#007AFF</color>
     <color name="background">#F8F8FA</color>
     <color name="bottom_nav_icon_inactive">#8E8E93</color>
-    <color name="cardBackground">#F5F5F5</color>
+    <color name="cardBackground">#FFFFFF</color>
     <color name="card_stroke">#E5E7EC</color>
     <color name="colorOnSurface">#1C1C1E</color>
     <color name="colorPrimary">#F2F2F7</color>
     <color name="colorPrimaryVariant">#C7C7CC</color>
     <color name="colorSurfaceVariant">#E5E7EC</color>
+    <color name="facebook_blue">#1877F2</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="light_gray">#E0E0E0</color>
     <color name="onPrimary">#1C1C1E</color>
     <color name="pay_accent">#FFB300</color>
     <color name="pay_bg">#FAFAFA</color>
@@ -18,10 +21,12 @@
     <color name="pay_surface">#FFFFFF</color>
     <color name="pay_text_primary">#212121</color>
     <color name="pay_text_secondary">#616161</color>
+    <color name="primary">#2196F3</color>
+    <color name="productCardBackground">#F0F0F0</color>
     <color name="splash_bg">#FFFFFF</color>
     <color name="surface">#FFFFFF</color>
-    <color name="textPrimary">#1C1C1E</color>
-    <color name="textSecondary">#6E6E73</color>
+    <color name="textPrimary">#000000</color>
+    <color name="textSecondary">#424242</color>
     <color name="white">#FFFFFF</color>
     <dimen name="dot_margin">8dp</dimen>
     <dimen name="dot_size">12dp</dimen>
@@ -36,15 +41,18 @@
     <string name="checkout">Checkout</string>
     <string name="compare">Compare</string>
     <string name="dark_mode">Dark mode</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
     <string name="email">Email</string>
     <string name="empty_cart_subtitle">Add some phones to get started.</string>
     <string name="empty_cart_title">Your cart is empty</string>
     <string name="empty_wishlist">Your wishlist is empty</string>
+    <string name="forgot_password">Forgot password?</string>
     <string name="get_started">Get Started</string>
     <string name="help">Help</string>
     <string name="home">Home</string>
     <string name="home_title">Featured</string>
     <string name="login">Login</string>
+    <string name="login_subtitle">Please login to continue</string>
     <string name="login_title">Welcome back</string>
     <string name="lorem_long">Explore our latest devices, accessories, and deals. This is placeholder content to demonstrate scrolling and typography.</string>
     <string name="lorem_short">High-performance phone with pro camera.</string>
@@ -62,6 +70,7 @@
     <string name="onboarding_title">Shop smarter with HyperZone</string>
     <string name="onboarding_welcome_subtitle">Your one-stop destination for premium phones and accessories</string>
     <string name="onboarding_welcome_title">Welcome to HyperZone</string>
+    <string name="or_continue_with">or continue with</string>
     <string name="orders">Orders</string>
     <string name="password">Password</string>
     <string name="price_format">Rs. %1$.2f</string>
@@ -82,12 +91,21 @@
     <string name="search_products">Search products…</string>
     <string name="settings">Settings</string>
     <string name="settings_title">App Settings</string>
+    <string name="sign_up">Sign up</string>
     <string name="skip">Skip</string>
     <string name="total_format">Total: Rs. %1$.2f</string>
     <string name="total_placeholder">Total: Rs. 0.00</string>
     <string name="total_prefix">Total:</string>
     <string name="view_cart">VIEW CART</string>
     <string name="wishlist">Wishlist</string>
+    <style name="ShapeAppearance.App.MediumComponent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="ShapeAppearance.App.SmallComponent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
     <style name="Text" parent="TextAppearance.AppCompat.Body1">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/textPrimary</item>
