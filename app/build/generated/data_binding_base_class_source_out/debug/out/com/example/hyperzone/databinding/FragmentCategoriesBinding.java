@@ -11,8 +11,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.hyperzone.R;
+import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -43,15 +46,25 @@ public final class FragmentCategoriesBinding implements ViewBinding {
   public final Chip chipPro;
 
   @NonNull
-  public final Chip chipSe;
+  public final Chip chipSE;
 
   @NonNull
   public final RecyclerView recyclerCategories;
 
+  @NonNull
+  public final MaterialCardView searchCard;
+
+  @NonNull
+  public final TextInputEditText searchEditText;
+
+  @NonNull
+  public final TextInputLayout searchLayout;
+
   private FragmentCategoriesBinding(@NonNull ConstraintLayout rootView, @NonNull Chip chipAll,
       @NonNull ChipGroup chipGroup, @NonNull Chip chipLite, @NonNull Chip chipMax,
-      @NonNull Chip chipMini, @NonNull Chip chipNano, @NonNull Chip chipPro, @NonNull Chip chipSe,
-      @NonNull RecyclerView recyclerCategories) {
+      @NonNull Chip chipMini, @NonNull Chip chipNano, @NonNull Chip chipPro, @NonNull Chip chipSE,
+      @NonNull RecyclerView recyclerCategories, @NonNull MaterialCardView searchCard,
+      @NonNull TextInputEditText searchEditText, @NonNull TextInputLayout searchLayout) {
     this.rootView = rootView;
     this.chipAll = chipAll;
     this.chipGroup = chipGroup;
@@ -60,8 +73,11 @@ public final class FragmentCategoriesBinding implements ViewBinding {
     this.chipMini = chipMini;
     this.chipNano = chipNano;
     this.chipPro = chipPro;
-    this.chipSe = chipSe;
+    this.chipSE = chipSE;
     this.recyclerCategories = recyclerCategories;
+    this.searchCard = searchCard;
+    this.searchEditText = searchEditText;
+    this.searchLayout = searchLayout;
   }
 
   @Override
@@ -91,7 +107,7 @@ public final class FragmentCategoriesBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.chip_all;
+      id = R.id.chipAll;
       Chip chipAll = ViewBindings.findChildViewById(rootView, id);
       if (chipAll == null) {
         break missingId;
@@ -103,39 +119,39 @@ public final class FragmentCategoriesBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.chip_lite;
+      id = R.id.chipLite;
       Chip chipLite = ViewBindings.findChildViewById(rootView, id);
       if (chipLite == null) {
         break missingId;
       }
 
-      id = R.id.chip_max;
+      id = R.id.chipMax;
       Chip chipMax = ViewBindings.findChildViewById(rootView, id);
       if (chipMax == null) {
         break missingId;
       }
 
-      id = R.id.chip_mini;
+      id = R.id.chipMini;
       Chip chipMini = ViewBindings.findChildViewById(rootView, id);
       if (chipMini == null) {
         break missingId;
       }
 
-      id = R.id.chip_nano;
+      id = R.id.chipNano;
       Chip chipNano = ViewBindings.findChildViewById(rootView, id);
       if (chipNano == null) {
         break missingId;
       }
 
-      id = R.id.chip_pro;
+      id = R.id.chipPro;
       Chip chipPro = ViewBindings.findChildViewById(rootView, id);
       if (chipPro == null) {
         break missingId;
       }
 
-      id = R.id.chip_se;
-      Chip chipSe = ViewBindings.findChildViewById(rootView, id);
-      if (chipSe == null) {
+      id = R.id.chipSE;
+      Chip chipSE = ViewBindings.findChildViewById(rootView, id);
+      if (chipSE == null) {
         break missingId;
       }
 
@@ -145,8 +161,27 @@ public final class FragmentCategoriesBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.searchCard;
+      MaterialCardView searchCard = ViewBindings.findChildViewById(rootView, id);
+      if (searchCard == null) {
+        break missingId;
+      }
+
+      id = R.id.searchEditText;
+      TextInputEditText searchEditText = ViewBindings.findChildViewById(rootView, id);
+      if (searchEditText == null) {
+        break missingId;
+      }
+
+      id = R.id.searchLayout;
+      TextInputLayout searchLayout = ViewBindings.findChildViewById(rootView, id);
+      if (searchLayout == null) {
+        break missingId;
+      }
+
       return new FragmentCategoriesBinding((ConstraintLayout) rootView, chipAll, chipGroup,
-          chipLite, chipMax, chipMini, chipNano, chipPro, chipSe, recyclerCategories);
+          chipLite, chipMax, chipMini, chipNano, chipPro, chipSE, recyclerCategories, searchCard,
+          searchEditText, searchLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
