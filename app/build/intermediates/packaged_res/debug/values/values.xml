@@ -22,12 +22,12 @@
     <color name="pay_text_primary">#212121</color>
     <color name="pay_text_secondary">#616161</color>
     <color name="primary">#2196F3</color>
-    <color name="productCardBackground">#F0F0F0</color>
+    <color name="productCardBackground">#AED2FF</color>
     <color name="splash_bg">#FFFFFF</color>
     <color name="surface">#FFFFFF</color>
     <color name="textPrimary">#000000</color>
     <color name="textSecondary">#424242</color>
-    <color name="white">#FFFFFF</color>
+    <color name="white">#AED2FF</color>
     <dimen name="dot_margin">8dp</dimen>
     <dimen name="dot_size">12dp</dimen>
     <string name="add_to_cart">Add to Cart</string>
