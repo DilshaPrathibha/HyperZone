@@ -63,7 +63,7 @@
     <string name="sample_product_description">
         Experience the next generation of technology with pro performance, a stunning display, and all-day battery life. The perfect companion for work and play.
     </string>
-
+    <!-- If you later want dynamic name injection from code, use this one: -->
     <string name="sample_product_description_with_name">
         Experience the next generation of technology with the %1$s. Featuring cutting-edge performance, stunning display, and all-day battery life. The perfect companion for work and play.
     </string>

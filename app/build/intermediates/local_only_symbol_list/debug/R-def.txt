@@ -101,9 +101,6 @@ id recycler_cart
 id recycler_categories
 id recycler_search
 id scroll
-id searchCard
-id searchEditText
-id searchLayout
 id sectionSubtitle
 id sectionTitle
 id spinnerA
