@@ -33,8 +33,13 @@
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:src="@drawable/profile_picture"
-                android:contentDescription="Avatar"
-                android:padding="4dp"/>
+                android:contentDescription="Profile picture"
+                android:scaleType="centerCrop"
+                android:padding="4dp"
+                android:background="@android:color/darker_gray"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"/>
 
             <TextView
                 android:id="@+id/txtName"
