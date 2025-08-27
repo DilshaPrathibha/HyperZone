@@ -3076,6 +3076,13 @@ int drawable ic_search_black_24 0x7f0700a7
 int drawable ic_settings_24 0x7f0700a8
 int drawable ic_wishlist_24 0x7f0700a9
 int drawable icon_background 0x7f0700aa
+int drawable img_galaxy_s24 0x7f0700fb
+int drawable img_iphone_15 0x7f0700fc
+int drawable img_nothing_phone_1 0x7f0700fd
+int drawable img_nothing_phone_2 0x7f0700fe
+int drawable img_oneplus_12 0x7f0700ff
+int drawable img_pixel_8 0x7f070100
+int drawable img_xiaomi_14 0x7f070101
 int drawable indeterminate_static 0x7f0700ab
 int drawable logo 0x7f0700ac
 int drawable m3_avd_hide_password 0x7f0700ad

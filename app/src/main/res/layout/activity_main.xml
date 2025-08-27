@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:title="@string/app_name"
-            app:titleTextColor="?attr/colorOnBackground"
+            app:titleTextColor="@color/accent"
             app:navigationIconTint="?attr/colorOnBackground"
             app:background="?attr/colorSurface"
             app:elevation="4dp"/>
