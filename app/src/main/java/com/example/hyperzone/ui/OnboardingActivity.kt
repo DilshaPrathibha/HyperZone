@@ -93,15 +93,20 @@ class OnboardingActivity : AppCompatActivity() {
     private fun updateButtons(position: Int) {
         when (position) {
             0 -> {
+                // First screen - Only show Next button
                 binding.btnPrevious.visibility = View.GONE
                 binding.btnNext.text = getString(R.string.next)
             }
             1 -> {
+                // Second screen - Show Back and Next buttons
                 binding.btnPrevious.visibility = View.VISIBLE
+                binding.btnPrevious.text = getString(R.string.back)
                 binding.btnNext.text = getString(R.string.next)
             }
             2 -> {
+                // Third screen - Show Back and Get Started buttons
                 binding.btnPrevious.visibility = View.VISIBLE
+                binding.btnPrevious.text = getString(R.string.back)
                 binding.btnNext.text = getString(R.string.get_started)
             }
         }

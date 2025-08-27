@@ -6,9 +6,10 @@
     <color name="white">#FFFFFF</color>
     <color name="textPrimary">#1C1C1E</color>
     <color name="textSecondary">#6E6E73</color>
-    <color name="cardBackground">#FFFFFF</color>
+    <color name="cardBackground">#F5F5F5</color>  <!-- Light gray background for cards -->
+    <color name="card_stroke">#E5E7EC</color>
     <color name="colorOnSurface">#1C1C1E</color>
-    <color name="colorSurfaceVariant">#E7E0EC</color>
+    <color name="colorSurfaceVariant">#E5E7EC</color>
 
     <!-- Derived -->
     <color name="onPrimary">#1C1C1E</color>
@@ -18,6 +19,9 @@
     <color name="splash_bg">#FFFFFF</color>
     <color name="colorPrimary">#F2F2F7</color>
     <color name="colorPrimaryVariant">#C7C7CC</color>
+    
+    <!-- Bottom nav icon (inactive) -->
+    <color name="bottom_nav_icon_inactive">#8E8E93</color> <!-- cool gray -->
 
     <!-- Payment screen colors -->
     <color name="pay_bg">#FAFAFA</color>

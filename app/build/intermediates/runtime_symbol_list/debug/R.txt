@@ -1380,6 +1380,8 @@ int color background_floating_material_dark 0x7f05001f
 int color background_floating_material_light 0x7f050020
 int color background_material_dark 0x7f050021
 int color background_material_light 0x7f050022
+int color bottom_nav_icon_inactive 0x7f050323
+int color bottom_nav_icon_tint 0x7f050324
 int color bright_foreground_disabled_material_dark 0x7f050023
 int color bright_foreground_disabled_material_light 0x7f050024
 int color bright_foreground_inverse_material_dark 0x7f050025
@@ -1391,6 +1393,7 @@ int color button_material_light 0x7f05002a
 int color call_notification_answer_color 0x7f05002b
 int color call_notification_decline_color 0x7f05002c
 int color cardBackground 0x7f05002d
+int color card_stroke 0x7f050325
 int color cardview_dark_background 0x7f05002e
 int color cardview_light_background 0x7f05002f
 int color cardview_shadow_end_color 0x7f050030
@@ -3183,6 +3186,9 @@ int drawable notification_template_icon_bg 0x7f070102
 int drawable notification_template_icon_low_bg 0x7f070103
 int drawable notification_tile_bg 0x7f070104
 int drawable notify_panel_notification_icon_bg 0x7f070105
+int drawable onboarding_1 0x7f070118
+int drawable onboarding_2 0x7f070119
+int drawable onboarding_3 0x7f07011a
 int drawable onboarding_dot_selected 0x7f070106
 int drawable onboarding_dot_unselected 0x7f070107
 int drawable pm_card_bg 0x7f070116
@@ -3639,6 +3645,11 @@ int id rightToLeft 0x7f0801b3
 int id right_icon 0x7f0801b4
 int id right_side 0x7f0801b5
 int id rounded 0x7f0801b6
+int id rowAbout 0x7f080253
+int id rowClearCache 0x7f080254
+int id rowCurrency 0x7f080255
+int id rowLanguage 0x7f080256
+int id rowNotifications 0x7f080257
 int id row_index_key 0x7f0801b7
 int id save_non_transition_alpha 0x7f0801b8
 int id save_overlay_view 0x7f0801b9
@@ -3706,6 +3717,7 @@ int id stretch 0x7f0801f6
 int id submenuarrow 0x7f0801f7
 int id submit_area 0x7f0801f8
 int id supportScrollUp 0x7f0801f9
+int id switchNotifications 0x7f080258
 int id switch_dark 0x7f0801fa
 int id tabMode 0x7f0801fb
 int id tableSpecs 0x7f0801fc
@@ -3761,6 +3773,9 @@ int id transition_position 0x7f08022c
 int id transition_scene_layoutid_cache 0x7f08022d
 int id transition_transform 0x7f08022e
 int id triangle 0x7f08022f
+int id tvCurrencyValue 0x7f080259
+int id tvLanguageValue 0x7f08025a
+int id tvVersion 0x7f08025b
 int id tv_total 0x7f080230
 int id txtName 0x7f080231
 int id unchecked 0x7f080232
@@ -4043,6 +4058,7 @@ int string added_to_cart 0x7f10001c
 int string androidx_startup 0x7f10001d
 int string app_name 0x7f10001e
 int string appbar_scrolling_view_behavior 0x7f10001f
+int string back 0x7f1000e0
 int string bottom_sheet_behavior 0x7f100020
 int string bottomsheet_action_collapse 0x7f100021
 int string bottomsheet_action_expand 0x7f100022

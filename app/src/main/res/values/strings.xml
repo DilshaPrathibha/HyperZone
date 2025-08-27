@@ -29,6 +29,7 @@
     <string name="skip">Skip</string>
     <string name="get_started">Get Started</string>
 
+    <string name="back">Back</string>
     <string name="onboarding_welcome_title">Welcome to HyperZone</string>
     <string name="onboarding_welcome_subtitle">Your one-stop destination for premium phones and accessories</string>
     <string name="onboarding_browse_title">Browse &amp; Compare</string>

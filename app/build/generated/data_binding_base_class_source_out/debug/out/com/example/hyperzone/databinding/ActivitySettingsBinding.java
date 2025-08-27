@@ -4,6 +4,8 @@ package com.example.hyperzone.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -21,16 +23,57 @@ public final class ActivitySettingsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final LinearLayout rowAbout;
+
+  @NonNull
+  public final LinearLayout rowClearCache;
+
+  @NonNull
+  public final LinearLayout rowCurrency;
+
+  @NonNull
+  public final LinearLayout rowLanguage;
+
+  @NonNull
+  public final LinearLayout rowNotifications;
+
+  @NonNull
   public final SwitchMaterial switchDark;
+
+  @NonNull
+  public final SwitchMaterial switchNotifications;
 
   @NonNull
   public final MaterialToolbar toolbar;
 
+  @NonNull
+  public final TextView tvCurrencyValue;
+
+  @NonNull
+  public final TextView tvLanguageValue;
+
+  @NonNull
+  public final TextView tvVersion;
+
   private ActivitySettingsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull SwitchMaterial switchDark, @NonNull MaterialToolbar toolbar) {
+      @NonNull LinearLayout rowAbout, @NonNull LinearLayout rowClearCache,
+      @NonNull LinearLayout rowCurrency, @NonNull LinearLayout rowLanguage,
+      @NonNull LinearLayout rowNotifications, @NonNull SwitchMaterial switchDark,
+      @NonNull SwitchMaterial switchNotifications, @NonNull MaterialToolbar toolbar,
+      @NonNull TextView tvCurrencyValue, @NonNull TextView tvLanguageValue,
+      @NonNull TextView tvVersion) {
     this.rootView = rootView;
+    this.rowAbout = rowAbout;
+    this.rowClearCache = rowClearCache;
+    this.rowCurrency = rowCurrency;
+    this.rowLanguage = rowLanguage;
+    this.rowNotifications = rowNotifications;
     this.switchDark = switchDark;
+    this.switchNotifications = switchNotifications;
     this.toolbar = toolbar;
+    this.tvCurrencyValue = tvCurrencyValue;
+    this.tvLanguageValue = tvLanguageValue;
+    this.tvVersion = tvVersion;
   }
 
   @Override
@@ -60,9 +103,45 @@ public final class ActivitySettingsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.rowAbout;
+      LinearLayout rowAbout = ViewBindings.findChildViewById(rootView, id);
+      if (rowAbout == null) {
+        break missingId;
+      }
+
+      id = R.id.rowClearCache;
+      LinearLayout rowClearCache = ViewBindings.findChildViewById(rootView, id);
+      if (rowClearCache == null) {
+        break missingId;
+      }
+
+      id = R.id.rowCurrency;
+      LinearLayout rowCurrency = ViewBindings.findChildViewById(rootView, id);
+      if (rowCurrency == null) {
+        break missingId;
+      }
+
+      id = R.id.rowLanguage;
+      LinearLayout rowLanguage = ViewBindings.findChildViewById(rootView, id);
+      if (rowLanguage == null) {
+        break missingId;
+      }
+
+      id = R.id.rowNotifications;
+      LinearLayout rowNotifications = ViewBindings.findChildViewById(rootView, id);
+      if (rowNotifications == null) {
+        break missingId;
+      }
+
       id = R.id.switch_dark;
       SwitchMaterial switchDark = ViewBindings.findChildViewById(rootView, id);
       if (switchDark == null) {
+        break missingId;
+      }
+
+      id = R.id.switchNotifications;
+      SwitchMaterial switchNotifications = ViewBindings.findChildViewById(rootView, id);
+      if (switchNotifications == null) {
         break missingId;
       }
 
@@ -72,7 +151,27 @@ public final class ActivitySettingsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySettingsBinding((ConstraintLayout) rootView, switchDark, toolbar);
+      id = R.id.tvCurrencyValue;
+      TextView tvCurrencyValue = ViewBindings.findChildViewById(rootView, id);
+      if (tvCurrencyValue == null) {
+        break missingId;
+      }
+
+      id = R.id.tvLanguageValue;
+      TextView tvLanguageValue = ViewBindings.findChildViewById(rootView, id);
+      if (tvLanguageValue == null) {
+        break missingId;
+      }
+
+      id = R.id.tvVersion;
+      TextView tvVersion = ViewBindings.findChildViewById(rootView, id);
+      if (tvVersion == null) {
+        break missingId;
+      }
+
+      return new ActivitySettingsBinding((ConstraintLayout) rootView, rowAbout, rowClearCache,
+          rowCurrency, rowLanguage, rowNotifications, switchDark, switchNotifications, toolbar,
+          tvCurrencyValue, tvLanguageValue, tvVersion);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

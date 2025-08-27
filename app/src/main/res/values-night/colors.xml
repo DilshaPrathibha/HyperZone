@@ -4,7 +4,7 @@
     <color name="accent">#0A84FF</color>
     <color name="background">#121212</color>
     <color name="textPrimary">#F2F2F7</color>
-    <color name="textSecondary">#D1D1D6</color>
+    <color name="textSecondary">#CBCBF8</color>
     <color name="cardBackground">#000000</color>
 
     <!-- Derived -->
@@ -13,4 +13,10 @@
 
     <!-- Splash (explicit solid color; silences hint) -->
     <color name="splash_bg">#121212</color>
+    
+    <!-- Card stroke (transparent in dark mode) -->
+    <color name="card_stroke">@android:color/transparent</color>
+    
+    <!-- Bottom nav icon (inactive, dark) -->
+    <color name="bottom_nav_icon_inactive">#A1A1A6</color> <!-- slightly lighter on dark bg -->
 </resources>

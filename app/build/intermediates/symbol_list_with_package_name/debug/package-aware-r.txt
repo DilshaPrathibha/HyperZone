@@ -1381,6 +1381,8 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color bottom_nav_icon_inactive
+color bottom_nav_icon_tint
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1392,6 +1394,7 @@ color button_material_light
 color call_notification_answer_color
 color call_notification_decline_color
 color cardBackground
+color card_stroke
 color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
@@ -3184,6 +3187,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable onboarding_1
+drawable onboarding_2
+drawable onboarding_3
 drawable onboarding_dot_selected
 drawable onboarding_dot_unselected
 drawable pm_card_bg
@@ -3640,6 +3646,11 @@ id rightToLeft
 id right_icon
 id right_side
 id rounded
+id rowAbout
+id rowClearCache
+id rowCurrency
+id rowLanguage
+id rowNotifications
 id row_index_key
 id save_non_transition_alpha
 id save_overlay_view
@@ -3707,6 +3718,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id switchNotifications
 id switch_dark
 id tabMode
 id tableSpecs
@@ -3762,6 +3774,9 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvCurrencyValue
+id tvLanguageValue
+id tvVersion
 id tv_total
 id txtName
 id unchecked
@@ -4044,6 +4059,7 @@ string added_to_cart
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string back
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand

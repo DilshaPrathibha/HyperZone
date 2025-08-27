@@ -2,7 +2,10 @@ R_DEF: Internal format may change without notice
 local
 color accent
 color background
+color bottom_nav_icon_inactive
+color bottom_nav_icon_tint
 color cardBackground
+color card_stroke
 color colorOnSurface
 color colorPrimary
 color colorPrimaryVariant
@@ -67,6 +70,9 @@ drawable img_oneplus_12
 drawable img_pixel_8
 drawable img_xiaomi_14
 drawable logo
+drawable onboarding_1
+drawable onboarding_2
+drawable onboarding_3
 drawable onboarding_dot_selected
 drawable onboarding_dot_unselected
 drawable pm_card_bg
@@ -148,17 +154,26 @@ id productsRecyclerView
 id recycler_cart
 id recycler_categories
 id recycler_search
+id rowAbout
+id rowClearCache
+id rowCurrency
+id rowLanguage
+id rowNotifications
 id scroll
 id sectionSubtitle
 id sectionTitle
 id spinnerA
 id spinnerB
+id switchNotifications
 id switch_dark
 id tableSpecs
 id titleProfile
 id toolbar
 id toolbarBack
 id total_bar
+id tvCurrencyValue
+id tvLanguageValue
+id tvVersion
 id tv_total
 id txtName
 layout activity_compare
@@ -191,6 +206,7 @@ mipmap ic_launcher_round
 string add_to_cart
 string added_to_cart
 string app_name
+string back
 string cart
 string cart_title
 string categories

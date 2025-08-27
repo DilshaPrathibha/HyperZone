@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:background="?attr/colorSurface"
             android:elevation="8dp"
-            app:itemIconTint="@color/nav_icon_tint"
+            app:itemIconTint="@color/bottom_nav_icon_tint"
             app:itemTextColor="@color/nav_text_tint"
             app:menu="@menu/menu_bottom_nav"/>
     </LinearLayout>
