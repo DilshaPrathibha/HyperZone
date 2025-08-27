@@ -36,19 +36,24 @@
                     android:id="@+id/adTitle"
                     android:layout_width="190dp"
                     android:layout_height="93dp"
-                    android:text="Gain Complete\nCamera Control WIth Galaxy S24"
                     android:textColor="@android:color/white"
                     android:textSize="20sp"
                     android:textStyle="normal|italic" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/adCta"
-                    style="?attr/materialButtonOutlinedStyle"
+                    style="@style/Widget.MaterialComponents.Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
-                    android:text="Buy Now" />
+                    android:text="Buy Now"
+                    android:textColor="@color/onPrimary"
+                    app:backgroundTint="@color/accent"
+                    app:cornerRadius="4dp"
+                    app:elevation="1dp"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp" />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
 

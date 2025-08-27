@@ -18,6 +18,8 @@ color white
 dimen dot_margin
 dimen dot_size
 drawable bg_ad_banner
+drawable bg_ad_banner2
+drawable bg_ad_banner3
 drawable ic_cart_24
 drawable ic_category_24
 drawable ic_compare_arrows_24
