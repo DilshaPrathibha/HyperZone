@@ -3046,6 +3046,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_arrow_back_black_24
+drawable ic_badge_24
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -3058,9 +3059,13 @@ drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_compare_arrows_24
 drawable ic_delete_24
+drawable ic_description_24
+drawable ic_email_24
 drawable ic_help_24
 drawable ic_home_24
 drawable ic_keyboard_black_24dp
+drawable ic_language_24
+drawable ic_logout_24
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -3070,9 +3075,12 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_24
 drawable ic_orders_24
+drawable ic_palette_24
+drawable ic_person_24
 drawable ic_phone_1
 drawable ic_phone_24
 drawable ic_phone_placeholder
+drawable ic_privacy_24
 drawable ic_profile_24
 drawable ic_search_24
 drawable ic_search_black_24
@@ -3162,6 +3170,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable onboarding_dot_selected
 drawable onboarding_dot_unselected
+drawable profile_picture
 drawable splash_logo
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3278,6 +3287,7 @@ id btnLogin
 id btnNext
 id btnPrevious
 id btnRemove
+id btnSignOut
 id btnSkip
 id btn_checkout
 id buttonPanel
@@ -3431,6 +3441,7 @@ id ignoreRequest
 id image
 id img
 id imgA
+id imgAvatar
 id imgB
 id immediateStop
 id included
@@ -3705,6 +3716,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id titleProfile
 id title_template
 id toggle
 id toolbar
@@ -3724,6 +3736,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tv_total
+id txtName
 id unchecked
 id uniform
 id unlabeled
