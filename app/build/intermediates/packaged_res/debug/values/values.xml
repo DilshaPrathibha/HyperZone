@@ -15,7 +15,7 @@
     <color name="white">#FFFFFF</color>
     <dimen name="dot_margin">8dp</dimen>
     <dimen name="dot_size">12dp</dimen>
-    <string name="add_to_cart">Add to cart</string>
+    <string name="add_to_cart">Add to Cart</string>
     <string name="added_to_cart">%1$s added to cart</string>
     <string name="app_name">HyperZone</string>
     <string name="cart">Cart</string>
@@ -23,6 +23,7 @@
     <string name="categories">Categories</string>
     <string name="categories_title">Browse categories</string>
     <string name="checkout">Checkout</string>
+    <string name="compare">Compare</string>
     <string name="dark_mode">Dark mode</string>
     <string name="email">Email</string>
     <string name="empty_cart_subtitle">Add some phones to get started.</string>
@@ -66,6 +67,8 @@
     </string>
     <string name="search">Search</string>
     <string name="search_hint">Search products</string>
+    <string name="search_icon">Search icon</string>
+    <string name="search_products">Search products…</string>
     <string name="settings">Settings</string>
     <string name="settings_title">App Settings</string>
     <string name="skip">Skip</string>

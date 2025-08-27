@@ -4,8 +4,8 @@ package com.example.hyperzone.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -15,6 +15,7 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.hyperzone.R;
 import com.google.android.material.appbar.MaterialToolbar;
+import com.google.android.material.button.MaterialButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -24,7 +25,13 @@ public final class ActivityProductDetailBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button btnAddToCart;
+  public final MaterialButton btnAddToCart;
+
+  @NonNull
+  public final MaterialButton btnCompare;
+
+  @NonNull
+  public final LinearLayout ctaRow;
 
   @NonNull
   public final TextView detailDesc;
@@ -45,11 +52,14 @@ public final class ActivityProductDetailBinding implements ViewBinding {
   public final MaterialToolbar toolbar;
 
   private ActivityProductDetailBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button btnAddToCart, @NonNull TextView detailDesc, @NonNull TextView detailName,
+      @NonNull MaterialButton btnAddToCart, @NonNull MaterialButton btnCompare,
+      @NonNull LinearLayout ctaRow, @NonNull TextView detailDesc, @NonNull TextView detailName,
       @NonNull TextView detailPrice, @NonNull ImageView heroImage, @NonNull ScrollView scroll,
       @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
     this.btnAddToCart = btnAddToCart;
+    this.btnCompare = btnCompare;
+    this.ctaRow = ctaRow;
     this.detailDesc = detailDesc;
     this.detailName = detailName;
     this.detailPrice = detailPrice;
@@ -86,8 +96,20 @@ public final class ActivityProductDetailBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btnAddToCart;
-      Button btnAddToCart = ViewBindings.findChildViewById(rootView, id);
+      MaterialButton btnAddToCart = ViewBindings.findChildViewById(rootView, id);
       if (btnAddToCart == null) {
+        break missingId;
+      }
+
+      id = R.id.btnCompare;
+      MaterialButton btnCompare = ViewBindings.findChildViewById(rootView, id);
+      if (btnCompare == null) {
+        break missingId;
+      }
+
+      id = R.id.ctaRow;
+      LinearLayout ctaRow = ViewBindings.findChildViewById(rootView, id);
+      if (ctaRow == null) {
         break missingId;
       }
 
@@ -127,8 +149,8 @@ public final class ActivityProductDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityProductDetailBinding((ConstraintLayout) rootView, btnAddToCart, detailDesc,
-          detailName, detailPrice, heroImage, scroll, toolbar);
+      return new ActivityProductDetailBinding((ConstraintLayout) rootView, btnAddToCart, btnCompare,
+          ctaRow, detailDesc, detailName, detailPrice, heroImage, scroll, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

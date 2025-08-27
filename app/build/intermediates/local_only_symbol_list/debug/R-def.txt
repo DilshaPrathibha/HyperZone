@@ -43,6 +43,7 @@ id adCta
 id adTitle
 id bottom_nav
 id btnAddToCart
+id btnCompare
 id btnLogin
 id btnNext
 id btnPrevious
@@ -57,6 +58,7 @@ id chipNano
 id chipPro
 id chipSE
 id chip_group
+id ctaRow
 id detailDesc
 id detailName
 id detailPrice
@@ -143,6 +145,7 @@ string cart_title
 string categories
 string categories_title
 string checkout
+string compare
 string dark_mode
 string email
 string empty_cart_subtitle
@@ -182,6 +185,8 @@ string sample_product_description
 string sample_product_description_with_name
 string search
 string search_hint
+string search_icon
+string search_products
 string settings
 string settings_title
 string skip

@@ -3264,6 +3264,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnAddToCart
+id btnCompare
 id btnLogin
 id btnNext
 id btnPrevious
@@ -3313,6 +3314,7 @@ id coordinator
 id cos
 id counterclockwise
 id cradle
+id ctaRow
 id currentState
 id custom
 id customPanel
@@ -4013,6 +4015,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string checkout
 string clear_text_end_icon_content_description
+string compare
 string dark_mode
 string email
 string empty_cart_subtitle
@@ -4165,7 +4168,9 @@ string sample_product_description
 string sample_product_description_with_name
 string search
 string search_hint
+string search_icon
 string search_menu_title
+string search_products
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
