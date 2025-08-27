@@ -8,6 +8,14 @@
     <color name="colorPrimaryVariant">#C7C7CC</color>
     <color name="colorSurfaceVariant">#E7E0EC</color>
     <color name="onPrimary">#1C1C1E</color>
+    <color name="pay_accent">#FFB300</color>
+    <color name="pay_bg">#FAFAFA</color>
+    <color name="pay_primary">#1976D2</color>
+    <color name="pay_primary_10">#1A1976D2</color>
+    <color name="pay_stroke">#331976D2</color>
+    <color name="pay_surface">#FFFFFF</color>
+    <color name="pay_text_primary">#212121</color>
+    <color name="pay_text_secondary">#616161</color>
     <color name="splash_bg">#FFFFFF</color>
     <color name="surface">#FFFFFF</color>
     <color name="textPrimary">#1C1C1E</color>

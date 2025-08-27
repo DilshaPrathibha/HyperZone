@@ -10,6 +10,14 @@ color colorSurfaceVariant
 color nav_icon_tint
 color nav_text_tint
 color onPrimary
+color pay_accent
+color pay_bg
+color pay_primary
+color pay_primary_10
+color pay_stroke
+color pay_surface
+color pay_text_primary
+color pay_text_secondary
 color splash_bg
 color surface
 color textPrimary
@@ -38,6 +46,12 @@ drawable ic_person_24
 drawable ic_phone_1
 drawable ic_phone_24
 drawable ic_phone_placeholder
+drawable ic_pm_bitcoin_24
+drawable ic_pm_credit_card_24
+drawable ic_pm_iphone_24
+drawable ic_pm_mall_24
+drawable ic_pm_payments_24
+drawable ic_pm_wallet_24
 drawable ic_privacy_24
 drawable ic_profile_24
 drawable ic_search_24
@@ -55,6 +69,8 @@ drawable img_xiaomi_14
 drawable logo
 drawable onboarding_dot_selected
 drawable onboarding_dot_unselected
+drawable pm_card_bg
+drawable pm_icon_bg
 drawable profile_picture
 drawable simple_card_bg
 drawable splash_logo

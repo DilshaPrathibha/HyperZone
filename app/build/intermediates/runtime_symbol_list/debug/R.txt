@@ -2106,6 +2106,14 @@ int color nav_text_tint 0x7f0502f5
 int color notification_action_color_filter 0x7f0502f6
 int color notification_icon_bg_color 0x7f0502f7
 int color onPrimary 0x7f0502f8
+int color pay_accent 0x7f050314
+int color pay_bg 0x7f050315
+int color pay_primary 0x7f050316
+int color pay_primary_10 0x7f050317
+int color pay_stroke 0x7f050318
+int color pay_surface 0x7f050319
+int color pay_text_primary 0x7f05031a
+int color pay_text_secondary 0x7f05031b
 int color primary_dark_material_dark 0x7f0502f9
 int color primary_dark_material_light 0x7f0502fa
 int color primary_material_dark 0x7f0502fb
@@ -3079,6 +3087,12 @@ int drawable ic_person_24 0x7f0700aa
 int drawable ic_phone_1 0x7f0700ab
 int drawable ic_phone_24 0x7f0700ac
 int drawable ic_phone_placeholder 0x7f0700ad
+int drawable ic_pm_bitcoin_24 0x7f070110
+int drawable ic_pm_credit_card_24 0x7f070111
+int drawable ic_pm_iphone_24 0x7f070112
+int drawable ic_pm_mall_24 0x7f070113
+int drawable ic_pm_payments_24 0x7f070114
+int drawable ic_pm_wallet_24 0x7f070115
 int drawable ic_privacy_24 0x7f0700ae
 int drawable ic_profile_24 0x7f0700af
 int drawable ic_search_24 0x7f0700b0
@@ -3171,6 +3185,8 @@ int drawable notification_tile_bg 0x7f070104
 int drawable notify_panel_notification_icon_bg 0x7f070105
 int drawable onboarding_dot_selected 0x7f070106
 int drawable onboarding_dot_unselected 0x7f070107
+int drawable pm_card_bg 0x7f070116
+int drawable pm_icon_bg 0x7f070117
 int drawable profile_picture 0x7f07010c
 int drawable simple_card_bg 0x7f07010f
 int drawable splash_logo 0x7f070108
