@@ -18,6 +18,7 @@
             android:text="Profile"
             android:textStyle="bold"
             android:textSize="28sp"
+            android:textColor="@color/textPrimary"
             android:layout_marginBottom="16dp"/>
 
         <!-- Header: Avatar + Name -->
@@ -48,6 +49,7 @@
                 android:text="Saman Perera"
                 android:textStyle="bold"
                 android:textSize="20sp"
+                android:textColor="@color/textPrimary"
                 android:layout_marginStart="16dp"/>
         </LinearLayout>
 
@@ -57,6 +59,7 @@
             android:layout_height="wrap_content"
             android:text="Account"
             android:textStyle="bold"
+            android:textColor="@color/textPrimary"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"/>
 
@@ -73,7 +76,7 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_email_24"
-                android:tint="#616161"/>
+                android:tint="@color/textPrimary"/>
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -86,12 +89,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Email"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:textColor="@color/textPrimary"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="samanperera@gmail.com"/>
+                    android:text="samanperera@gmail.com"
+                    android:textColor="@color/textPrimary"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -108,7 +113,7 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_badge_24"
-                android:tint="#616161"/>
+                android:tint="@color/textPrimary"/>
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -121,12 +126,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Account Type"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:textColor="@color/textPrimary"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Buyer account"/>
+                    android:text="Buyer account"
+                    android:textColor="@color/textPrimary"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -136,6 +143,7 @@
             android:layout_height="wrap_content"
             android:text="App"
             android:textStyle="bold"
+            android:textColor="@color/textPrimary"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"/>
 
@@ -152,7 +160,7 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_palette_24"
-                android:tint="#616161"/>
+                android:tint="@color/textPrimary"/>
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -165,12 +173,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Color Scheme"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:textColor="@color/textPrimary"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Light"/>
+                    android:text="Light"
+                    android:textColor="@color/textPrimary"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -187,7 +197,7 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_language_24"
-                android:tint="#616161"/>
+                android:tint="@color/textPrimary"/>
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -200,12 +210,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Language"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:textColor="@color/textPrimary"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="English (UK)"/>
+                    android:text="English (UK)"
+                    android:textColor="@color/textPrimary"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -215,6 +227,7 @@
             android:layout_height="wrap_content"
             android:text="About"
             android:textStyle="bold"
+            android:textColor="@color/textPrimary"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"/>
 
@@ -237,6 +250,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Help Center"
+                android:textColor="@color/textPrimary"
                 android:layout_marginStart="12dp"/>
         </LinearLayout>
 
@@ -253,12 +267,13 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_description_24"
-                android:tint="#616161"/>
+                android:tint="@color/textPrimary"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Terms of Use"
+                android:textColor="@color/textPrimary"
                 android:layout_marginStart="12dp"/>
         </LinearLayout>
 
@@ -275,12 +290,13 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_privacy_24"
-                android:tint="#616161"/>
+                android:tint="@color/textPrimary"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Privacy Policy"
+                android:textColor="@color/textPrimary"
                 android:layout_marginStart="12dp"/>
         </LinearLayout>
 
@@ -304,7 +320,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sign out"
-                android:textColor="#D32F2F"
+                android:textColor="@color/textPrimary"
                 android:layout_marginStart="12dp"/>
         </LinearLayout>
     </LinearLayout>

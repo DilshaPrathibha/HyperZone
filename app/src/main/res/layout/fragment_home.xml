@@ -48,7 +48,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
                     android:text="Buy Now"
-                    android:textColor="@color/onPrimary"
+                    android:textColor="@color/colorSurfaceVariant"
                     app:backgroundTint="@color/accent"
                     app:cornerRadius="4dp"
                     app:elevation="1dp"

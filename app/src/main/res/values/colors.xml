@@ -3,11 +3,11 @@
 
     <color name="accent">#007AFF</color>
     <color name="background">#F8F8FA</color>
-    <color name="white">#AED2FF</color>
-    <color name="textPrimary">#000000</color>  <!-- Darker black for primary text -->
-    <color name="textSecondary">#424242</color>  <!-- Darker gray for secondary text -->
-    <color name="cardBackground">#FFFFFF</color>  <!-- White background for cards -->
-    <color name="productCardBackground">#AED2FF</color>  <!-- Slightly darker gray for product cards -->
+    <color name="white">#C4DCFF</color>
+    <color name="textPrimary">#000000</color>  <!--  primary text -->
+    <color name="textSecondary">#424242</color>  <!-- secondary text -->
+    <color name="cardBackground">#FFFFFF</color>  <!-- for cards -->
+    <color name="productCardBackground">#C4DCFF</color>  <!--  for product cards -->
     <color name="card_stroke">#E5E7EC</color>
     <color name="colorOnSurface">#1C1C1E</color>
     <color name="colorSurfaceVariant">#E5E7EC</color>
@@ -15,7 +15,6 @@
     <color name="onPrimary">#1C1C1E</color>
     <color name="surface">#FFFFFF</color>
 
-    <!-- Splash  -->
     <color name="splash_bg">#FFFFFF</color>
     <color name="colorPrimary">#F2F2F7</color>
     <color name="colorPrimaryVariant">#C7C7CC</color>
