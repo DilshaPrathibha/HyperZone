@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App -->
+
     <string name="app_name">HyperZone</string>
     <string name="nav_open">Open navigation drawer</string>
     <string name="nav_close">Close navigation drawer</string>
@@ -11,7 +11,7 @@
     <string name="cart">Cart</string>
     <string name="profile">Profile</string>
 
-    <!-- Drawer -->
+    <!-- left side navbar-->
     <string name="orders">Orders</string>
     <string name="wishlist">Wishlist</string>
     <string name="notifications">Notifications</string>
@@ -37,7 +37,7 @@
     <string name="onboarding_checkout_title">Easy Checkout</string>
     <string name="onboarding_checkout_subtitle">Secure payments and fast delivery to your doorstep</string>
 
-    <!-- Auth / settings -->
+    <!-- Auth, settings -->
     <string name="login">Login</string>
     <string name="login_title">Welcome back</string>
     <string name="email">Email</string>
@@ -65,11 +65,10 @@
     <string name="price_format">Rs. %1$.2f</string>
 
     <!-- Description -->
-    <!-- Plain version so it doesn't show %1$s in the UI -->
     <string name="sample_product_description">
         Experience the next generation of technology with pro performance, a stunning display, and all-day battery life. The perfect companion for work and play.
     </string>
-    <!-- If you later want dynamic name injection from code, use this one: -->
+
     <string name="sample_product_description_with_name">
         Experience the next generation of technology with the %1$s. Featuring cutting-edge performance, stunning display, and all-day battery life. The perfect companion for work and play.
     </string>
@@ -77,7 +76,7 @@
     <string name="added_to_cart">%1$s added to cart</string>
     <string name="view_cart">VIEW CART</string>
 
-    <!-- Cart totals / empty state -->
+    <!-- Cart  -->
     <string name="total_prefix">Total:</string>
     <string name="total_format">Total: Rs. %1$.2f</string>
     <string name="total_placeholder">Total: Rs. 0.00</string>
@@ -101,7 +100,7 @@
     <string name="sign_up">Sign up</string>
     <string name="or_continue_with">or continue with</string>
     
-    <!-- Sign Up Page -->
+    <!-- Sign Up  -->
     <string name="create_an_account">Create an account</string>
     <string name="full_name">Full Name</string>
     <string name="confirm_password">Confirm Password</string>
