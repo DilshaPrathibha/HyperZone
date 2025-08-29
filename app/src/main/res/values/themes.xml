@@ -7,6 +7,8 @@
         <item name="colorPrimary">@color/accent</item>
         <item name="colorSecondary">@color/accent</item>
         <item name="colorSurface">@color/cardBackground</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorSurfaceVariant">@color/colorSurfaceVariant</item>
 
         <!-- System surfaces -->
         <item name="android:windowBackground">@color/background</item>
@@ -24,14 +26,28 @@
         <item name="colorControlActivated">@color/accent</item>
     </style>
 
+    <!-- AppBar overlay theme -->
+    <style name="Theme.HyperZone.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <!-- Popup overlay theme -->
+    <style name="Theme.HyperZone.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
     <!-- Splash theme (from androidx.core:core-splashscreen) -->
-    <!-- Splash theme -->
     <style name="Theme.HyperZone.Splash" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/splash_bg</item>
-        <!-- Use the padded wrapper, not the raw vector -->
         <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
         <item name="postSplashScreenTheme">@style/Theme.HyperZone</item>
     </style>
 
+    <!-- Shape Appearance for TextInputLayout -->
+    <style name="ShapeAppearance.App.SmallComponent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
 
+    <!-- Shape for Buttons -->
+    <style name="ShapeAppearance.App.MediumComponent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
 </resources>

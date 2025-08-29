@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Light tokens -->
+
     <color name="accent">#007AFF</color>
-    <color name="background">#FFFFFFFF</color>
-    <color name="textPrimary">#FF000000</color>
-    <color name="textSecondary">#FF444444</color>
-    <color name="cardBackground">#FFF5F5F5</color>
+    <color name="background">#F8F8FA</color>
+    <color name="white">#C4DCFF</color>
+    <color name="textPrimary">#000000</color>  <!--  primary text -->
+    <color name="textSecondary">#424242</color>  <!-- secondary text -->
+    <color name="cardBackground">#FFFFFF</color>  <!-- for cards -->
+    <color name="productCardBackground">#C4DCFF</color>  <!--  for product cards -->
+    <color name="card_stroke">#E5E7EC</color>
+    <color name="colorOnSurface">#1C1C1E</color>
+    <color name="colorSurfaceVariant">#E5E7EC</color>
 
-    <!-- Derived -->
-    <color name="onPrimary">#FFFFFFFF</color>
-    <color name="surface">@color/cardBackground</color>
+    <color name="onPrimary">#1C1C1E</color>
+    <color name="surface">#FFFFFF</color>
 
-    <!-- Splash (explicit solid color; silences hint) -->
-    <color name="splash_bg">#FFFFFFFF</color>
-    <color name="colorPrimary">#007AFF</color>
-    <color name="colorPrimaryVariant">#0051A8</color>
+    <color name="splash_bg">#FFFFFF</color>
+    <color name="colorPrimary">#F2F2F7</color>
+    <color name="colorPrimaryVariant">#C7C7CC</color>
+    
+    <!-- Bottom nav icon - inactive -->
+    <color name="bottom_nav_icon_inactive">#8E8E93</color>
+
+    <!-- Payment screen colors -->
+    <color name="pay_bg">#FAFAFA</color>
+    <color name="pay_surface">#FFFFFF</color>
+    <color name="pay_primary">#1976D2</color>
+    <color name="pay_primary_10">#1A1976D2</color>
+    <color name="pay_accent">#FFB300</color>
+    <color name="pay_text_primary">#212121</color>
+    <color name="pay_text_secondary">#616161</color>
+    <color name="pay_stroke">#331976D2</color>
+    
+    <!-- Login Page Colors -->
+    <color name="primary">#2196F3</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="facebook_blue">#1877F2</color>
 </resources>

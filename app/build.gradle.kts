@@ -1,11 +1,12 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-parcelize")
 }
 
 android {
     namespace = "com.example.hyperzone"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.hyperzone"
@@ -13,6 +14,10 @@ android {
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
+        
+        vectorDrawables {
+            useSupportLibrary = true
+        }
     }
 
     buildFeatures {
@@ -30,13 +35,17 @@ android {
 
 dependencies {
     implementation("androidx.core:core-ktx:1.13.1")
-    implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("androidx.core:core:1.13.1")
+    implementation("androidx.appcompat:appcompat:1.7.1")
+    implementation("androidx.constraintlayout:constraintlayout:2.2.1")
+    implementation("androidx.activity:activity-ktx:1.10.1")
+    implementation("androidx.fragment:fragment-ktx:1.8.9")
+    implementation("androidx.viewpager2:viewpager2:1.1.0")
+    implementation("com.google.code.gson:gson:2.13.1")
+    
+    // Material components
     implementation("com.google.android.material:material:1.12.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation("androidx.activity:activity-ktx:1.9.1")
-    implementation("androidx.fragment:fragment-ktx:1.8.2")
-
-    // REQUIRED for Theme.SplashScreen + windowSplashScreen* attributes
+    
+    // Splash screen
     implementation("androidx.core:core-splashscreen:1.0.1")
-    implementation("androidx.viewpager2:viewpager2:1.0.0")
 }

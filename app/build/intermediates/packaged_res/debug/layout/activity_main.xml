@@ -13,27 +13,28 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/background"
             app:title="@string/app_name"
-            app:titleCentered="true"
-            app:navigationIconTint="@color/textPrimary"
-            app:titleTextColor="@color/textPrimary"/>
+            app:titleTextColor="@color/accent"
+            app:navigationIconTint="?attr/colorOnBackground"
+            app:background="?attr/colorSurface"
+            app:elevation="4dp"/>
 
         <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="@color/background"/>
+            android:background="?android:windowBackground"/>
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_nav"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:itemIconTint="@color/nav_icon_tint"
+            android:background="?attr/colorSurface"
+            android:elevation="8dp"
+            app:itemIconTint="@color/bottom_nav_icon_tint"
             app:itemTextColor="@color/nav_text_tint"
-            app:menu="@menu/menu_bottom_nav"
-            android:background="@color/cardBackground"/>
+            app:menu="@menu/menu_bottom_nav"/>
     </LinearLayout>
 
     <com.google.android.material.navigation.NavigationView

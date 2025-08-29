@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.hyperzone">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
     <application
+        android:name=".MyApp"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.HyperZone">
 
         <activity android:name=".ui.SettingsActivity" android:exported="false" />
         <activity android:name=".ui.LoginActivity" android:exported="false" />
+        <activity android:name=".ui.SignUpActivity" android:exported="false" />
         <activity android:name=".ui.OnboardingActivity" android:exported="false" />
 
         <activity
@@ -22,8 +25,45 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ui.MainActivity" android:exported="false" />
-        <activity android:name=".ui.ProductDetailActivity" android:exported="false" />
+        <activity 
+            android:name=".ui.MainActivity" 
+            android:exported="false" />
+            
+        <activity 
+            android:name=".ui.wishlist.WishlistActivity" 
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
+            
+        <activity 
+            android:name=".ui.orders.OrdersActivity" 
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
+            
+        <activity 
+            android:name=".ui.notifications.NotificationsActivity" 
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
+
+        <!-- 👇 Keep ONE entry that matches the real class path -->
+        <activity 
+            android:name=".ui.product.ProductDetailActivity" 
+            android:exported="false" />
+
         <activity android:name=".ui.SearchActivity" android:exported="false" />
+
+        <activity
+            android:name=".ui.compare.CompareActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
+            
+        <activity
+            android:name=".ui.checkout.PaymentMethodActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
+            
+        <activity
+            android:name=".ui.checkout.PaymentSuccessActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
     </application>
 </manifest>

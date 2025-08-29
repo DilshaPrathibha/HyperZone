@@ -4,25 +4,62 @@ package com.example.hyperzone.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.core.widget.NestedScrollView;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.hyperzone.R;
+import com.google.android.material.button.MaterialButton;
+import com.google.android.material.card.MaterialCardView;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
-  private final ScrollView rootView;
+  private final NestedScrollView rootView;
 
-  private FragmentHomeBinding(@NonNull ScrollView rootView) {
+  @NonNull
+  public final MaterialCardView adCard;
+
+  @NonNull
+  public final MaterialButton adCta;
+
+  @NonNull
+  public final TextView adTitle;
+
+  @NonNull
+  public final NestedScrollView homeScroll;
+
+  @NonNull
+  public final RecyclerView productsRecyclerView;
+
+  @NonNull
+  public final TextView sectionSubtitle;
+
+  @NonNull
+  public final TextView sectionTitle;
+
+  private FragmentHomeBinding(@NonNull NestedScrollView rootView, @NonNull MaterialCardView adCard,
+      @NonNull MaterialButton adCta, @NonNull TextView adTitle,
+      @NonNull NestedScrollView homeScroll, @NonNull RecyclerView productsRecyclerView,
+      @NonNull TextView sectionSubtitle, @NonNull TextView sectionTitle) {
     this.rootView = rootView;
+    this.adCard = adCard;
+    this.adCta = adCta;
+    this.adTitle = adTitle;
+    this.homeScroll = homeScroll;
+    this.productsRecyclerView = productsRecyclerView;
+    this.sectionSubtitle = sectionSubtitle;
+    this.sectionTitle = sectionTitle;
   }
 
   @Override
   @NonNull
-  public ScrollView getRoot() {
+  public NestedScrollView getRoot() {
     return rootView;
   }
 
@@ -43,10 +80,52 @@ public final class FragmentHomeBinding implements ViewBinding {
 
   @NonNull
   public static FragmentHomeBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.adCard;
+      MaterialCardView adCard = ViewBindings.findChildViewById(rootView, id);
+      if (adCard == null) {
+        break missingId;
+      }
 
-    return new FragmentHomeBinding((ScrollView) rootView);
+      id = R.id.adCta;
+      MaterialButton adCta = ViewBindings.findChildViewById(rootView, id);
+      if (adCta == null) {
+        break missingId;
+      }
+
+      id = R.id.adTitle;
+      TextView adTitle = ViewBindings.findChildViewById(rootView, id);
+      if (adTitle == null) {
+        break missingId;
+      }
+
+      NestedScrollView homeScroll = (NestedScrollView) rootView;
+
+      id = R.id.productsRecyclerView;
+      RecyclerView productsRecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (productsRecyclerView == null) {
+        break missingId;
+      }
+
+      id = R.id.sectionSubtitle;
+      TextView sectionSubtitle = ViewBindings.findChildViewById(rootView, id);
+      if (sectionSubtitle == null) {
+        break missingId;
+      }
+
+      id = R.id.sectionTitle;
+      TextView sectionTitle = ViewBindings.findChildViewById(rootView, id);
+      if (sectionTitle == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((NestedScrollView) rootView, adCard, adCta, adTitle,
+          homeScroll, productsRecyclerView, sectionSubtitle, sectionTitle);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

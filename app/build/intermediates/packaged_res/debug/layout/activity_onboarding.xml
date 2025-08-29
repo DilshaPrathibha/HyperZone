@@ -76,7 +76,7 @@
                 android:text="@string/next"
                 android:textAllCaps="false"
                 android:backgroundTint="@color/accent"
-                android:textColor="@color/onPrimary"
+                android:textColor="@color/colorSurfaceVariant"
                 style="?android:attr/buttonBarButtonStyle" />
 
         </LinearLayout>
